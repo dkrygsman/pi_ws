@@ -1,0 +1,579 @@
+[0.000000] (-) TimerEvent: {}
+[0.001564] (ros2_control_demo_description) JobQueued: {'identifier': 'ros2_control_demo_description', 'dependencies': OrderedDict()}
+[0.001695] (ros2_control_demo_example_2) JobQueued: {'identifier': 'ros2_control_demo_example_2', 'dependencies': OrderedDict([('ros2_control_demo_description', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description')])}
+[0.002266] (ros2_control_demo_description) JobStarted: {'identifier': 'ros2_control_demo_description'}
+[0.039809] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'cmake'}
+[0.041120] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '/home/rasp-8771/pi_ws/src/ros2_control_demo_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/ros2_control_demo_description'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'rasp-8771'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771/pi_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('WINDOWID', '46137350'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-8771:@/tmp/.ICE-unix/1490,unix/rasp-8771:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/rasp-8771/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rasp-8771'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099055] (-) TimerEvent: {}
+[0.200150] (-) TimerEvent: {}
+[0.301125] (-) TimerEvent: {}
+[0.402434] (-) TimerEvent: {}
+[0.503637] (-) TimerEvent: {}
+[0.604883] (-) TimerEvent: {}
+[0.705218] (ros2_control_demo_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.705979] (-) TimerEvent: {}
+[0.806764] (-) TimerEvent: {}
+[0.907658] (-) TimerEvent: {}
+[1.008604] (-) TimerEvent: {}
+[1.109476] (-) TimerEvent: {}
+[1.210692] (-) TimerEvent: {}
+[1.311895] (-) TimerEvent: {}
+[1.412782] (-) TimerEvent: {}
+[1.504600] (ros2_control_demo_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.512962] (-) TimerEvent: {}
+[1.552286] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.613178] (-) TimerEvent: {}
+[1.714016] (-) TimerEvent: {}
+[1.814850] (-) TimerEvent: {}
+[1.904943] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.915139] (-) TimerEvent: {}
+[1.932128] (ros2_control_demo_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.934018] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.936253] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.954059] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.015372] (-) TimerEvent: {}
+[2.116564] (-) TimerEvent: {}
+[2.217800] (-) TimerEvent: {}
+[2.318671] (-) TimerEvent: {}
+[2.330097] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.357639] (ros2_control_demo_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.358656] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.360231] (ros2_control_demo_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.398492] (ros2_control_demo_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[2.418913] (-) TimerEvent: {}
+[2.519638] (-) TimerEvent: {}
+[2.620337] (-) TimerEvent: {}
+[2.721098] (-) TimerEvent: {}
+[2.821909] (-) TimerEvent: {}
+[2.922671] (-) TimerEvent: {}
+[3.023592] (-) TimerEvent: {}
+[3.124558] (-) TimerEvent: {}
+[3.225649] (-) TimerEvent: {}
+[3.258203] (ros2_control_demo_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.325837] (-) TimerEvent: {}
+[3.426504] (-) TimerEvent: {}
+[3.527411] (-) TimerEvent: {}
+[3.577720] (ros2_control_demo_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.627563] (-) TimerEvent: {}
+[3.728643] (-) TimerEvent: {}
+[3.829382] (-) TimerEvent: {}
+[3.930087] (-) TimerEvent: {}
+[4.030907] (-) TimerEvent: {}
+[4.131669] (-) TimerEvent: {}
+[4.226878] (ros2_control_demo_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.231830] (-) TimerEvent: {}
+[4.249788] (ros2_control_demo_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.254601] (ros2_control_demo_description) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp-8771/pi_ws/build/ros2_control_demo_description\n'}
+[4.270057] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[4.272272] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'build'}
+[4.275440] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', '--', '-j4', '-l4'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'rasp-8771'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771/pi_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('WINDOWID', '46137350'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-8771:@/tmp/.ICE-unix/1490,unix/rasp-8771:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/rasp-8771/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rasp-8771'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.332055] (-) TimerEvent: {}
+[4.428164] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[4.433548] (-) TimerEvent: {}
+[4.536279] (-) TimerEvent: {}
+[4.540983] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'install'}
+[4.575750] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'rasp-8771'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771/pi_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('WINDOWID', '46137350'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-8771:@/tmp/.ICE-unix/1490,unix/rasp-8771:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/rasp-8771/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rasp-8771'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.608699] (ros2_control_demo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.610430] (ros2_control_demo_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.613164] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro\n'}
+[4.636468] (-) TimerEvent: {}
+[4.646382] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro\n'}
+[4.680824] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz\n'}
+[4.715084] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro\n'}
+[4.736691] (-) TimerEvent: {}
+[4.747177] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro\n'}
+[4.780827] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz\n'}
+[4.813611] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz\n'}
+[4.836924] (-) TimerEvent: {}
+[4.848573] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro\n'}
+[4.883487] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro\n'}
+[4.917369] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz\n'}
+[4.937214] (-) TimerEvent: {}
+[4.950327] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz\n'}
+[4.986482] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl\n'}
+[5.020193] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl\n'}
+[5.037424] (-) TimerEvent: {}
+[5.052411] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl\n'}
+[5.086177] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl\n'}
+[5.118190] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl\n'}
+[5.137733] (-) TimerEvent: {}
+[5.150465] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl\n'}
+[5.183617] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl\n'}
+[5.215995] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae\n'}
+[5.237902] (-) TimerEvent: {}
+[5.248576] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae\n'}
+[5.284338] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae\n'}
+[5.316332] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae\n'}
+[5.338130] (-) TimerEvent: {}
+[5.347998] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae\n'}
+[5.381622] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae\n'}
+[5.414858] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae\n'}
+[5.438327] (-) TimerEvent: {}
+[5.448675] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf\n'}
+[5.483577] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro\n'}
+[5.516918] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro\n'}
+[5.538530] (-) TimerEvent: {}
+[5.549521] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz\n'}
+[5.584788] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description\n'}
+[5.617944] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description\n'}
+[5.638809] (-) TimerEvent: {}
+[5.650427] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh\n'}
+[5.683767] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv\n'}
+[5.716847] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh\n'}
+[5.739112] (-) TimerEvent: {}
+[5.748862] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv\n'}
+[5.782562] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash\n'}
+[5.816924] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh\n'}
+[5.839308] (-) TimerEvent: {}
+[5.850342] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh\n'}
+[5.885839] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv\n'}
+[5.918586] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv\n'}
+[5.939607] (-) TimerEvent: {}
+[5.951300] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description\n'}
+[5.985652] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake\n'}
+[6.017290] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake\n'}
+[6.039882] (-) TimerEvent: {}
+[6.048601] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml\n'}
+[6.087691] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[6.140628] (-) TimerEvent: {}
+[6.242079] (-) TimerEvent: {}
+[6.277195] (ros2_control_demo_description) JobEnded: {'identifier': 'ros2_control_demo_description', 'rc': 0}
+[6.281577] (ros2_control_demo_example_2) JobStarted: {'identifier': 'ros2_control_demo_example_2'}
+[6.319012] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'cmake'}
+[6.319917] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '/home/rasp-8771/pi_ws/src/example_2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/ros2_control_demo_example_2'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'rasp-8771'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771/pi_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('WINDOWID', '46137350'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-8771:@/tmp/.ICE-unix/1490,unix/rasp-8771:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/rasp-8771/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rasp-8771'), ('AMENT_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron')]), 'shell': False}
+[6.342350] (-) TimerEvent: {}
+[6.469389] (-) TimerEvent: {}
+[6.570793] (-) TimerEvent: {}
+[6.664182] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.670773] (-) TimerEvent: {}
+[6.696246] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.771004] (-) TimerEvent: {}
+[6.871902] (-) TimerEvent: {}
+[6.972996] (-) TimerEvent: {}
+[7.074783] (-) TimerEvent: {}
+[7.175629] (-) TimerEvent: {}
+[7.188883] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.216421] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.217606] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.219158] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.247923] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[7.275806] (-) TimerEvent: {}
+[7.376591] (-) TimerEvent: {}
+[7.477245] (-) TimerEvent: {}
+[7.577916] (-) TimerEvent: {}
+[7.678634] (-) TimerEvent: {}
+[7.779304] (-) TimerEvent: {}
+[7.879983] (-) TimerEvent: {}
+[7.980753] (-) TimerEvent: {}
+[8.081531] (-) TimerEvent: {}
+[8.084009] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[8.181699] (-) TimerEvent: {}
+[8.282389] (-) TimerEvent: {}
+[8.368192] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.382567] (-) TimerEvent: {}
+[8.483263] (-) TimerEvent: {}
+[8.583944] (-) TimerEvent: {}
+[8.684630] (-) TimerEvent: {}
+[8.692353] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found hardware_interface: 3.24.0 (/opt/ros/iron/share/hardware_interface/cmake)\n'}
+[8.784819] (-) TimerEvent: {}
+[8.885549] (-) TimerEvent: {}
+[8.986309] (-) TimerEvent: {}
+[9.087036] (-) TimerEvent: {}
+[9.163965] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[9.187199] (-) TimerEvent: {}
+[9.274855] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[9.287350] (-) TimerEvent: {}
+[9.388060] (-) TimerEvent: {}
+[9.415262] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.488237] (-) TimerEvent: {}
+[9.565075] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.588406] (-) TimerEvent: {}
+[9.689127] (-) TimerEvent: {}
+[9.789798] (-) TimerEvent: {}
+[9.890497] (-) TimerEvent: {}
+[9.991204] (-) TimerEvent: {}
+[10.091921] (-) TimerEvent: {}
+[10.192648] (-) TimerEvent: {}
+[10.293346] (-) TimerEvent: {}
+[10.394021] (-) TimerEvent: {}
+[10.494737] (-) TimerEvent: {}
+[10.595482] (-) TimerEvent: {}
+[10.696185] (-) TimerEvent: {}
+[10.796960] (-) TimerEvent: {}
+[10.897657] (-) TimerEvent: {}
+[10.998366] (-) TimerEvent: {}
+[11.099089] (-) TimerEvent: {}
+[11.199779] (-) TimerEvent: {}
+[11.300464] (-) TimerEvent: {}
+[11.401252] (-) TimerEvent: {}
+[11.502162] (-) TimerEvent: {}
+[11.602850] (-) TimerEvent: {}
+[11.703550] (-) TimerEvent: {}
+[11.804246] (-) TimerEvent: {}
+[11.905083] (-) TimerEvent: {}
+[12.005808] (-) TimerEvent: {}
+[12.106543] (-) TimerEvent: {}
+[12.207272] (-) TimerEvent: {}
+[12.307963] (-) TimerEvent: {}
+[12.408865] (-) TimerEvent: {}
+[12.509616] (-) TimerEvent: {}
+[12.610331] (-) TimerEvent: {}
+[12.711042] (-) TimerEvent: {}
+[12.811753] (-) TimerEvent: {}
+[12.912441] (-) TimerEvent: {}
+[13.013182] (-) TimerEvent: {}
+[13.113908] (-) TimerEvent: {}
+[13.214597] (-) TimerEvent: {}
+[13.315287] (-) TimerEvent: {}
+[13.415993] (-) TimerEvent: {}
+[13.516752] (-) TimerEvent: {}
+[13.617429] (-) TimerEvent: {}
+[13.692807] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[13.717603] (-) TimerEvent: {}
+[13.724838] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[13.817787] (-) TimerEvent: {}
+[13.918601] (-) TimerEvent: {}
+[14.019379] (-) TimerEvent: {}
+[14.037842] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[14.119586] (-) TimerEvent: {}
+[14.220440] (-) TimerEvent: {}
+[14.321320] (-) TimerEvent: {}
+[14.324724] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[14.342417] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[14.421530] (-) TimerEvent: {}
+[14.442130] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[14.470572] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[14.504755] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[14.521749] (-) TimerEvent: {}
+[14.546118] (ros2_control_demo_example_2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.621917] (-) TimerEvent: {}
+[14.722637] (-) TimerEvent: {}
+[14.823356] (-) TimerEvent: {}
+[14.924048] (-) TimerEvent: {}
+[15.024779] (-) TimerEvent: {}
+[15.125463] (-) TimerEvent: {}
+[15.226147] (-) TimerEvent: {}
+[15.326838] (-) TimerEvent: {}
+[15.427687] (-) TimerEvent: {}
+[15.528398] (-) TimerEvent: {}
+[15.629161] (-) TimerEvent: {}
+[15.693927] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 2.0.5 (/opt/ros/iron/share/ament_cmake_pytest/cmake)\n'}
+[15.729374] (-) TimerEvent: {}
+[15.830084] (-) TimerEvent: {}
+[15.930860] (-) TimerEvent: {}
+[16.031555] (-) TimerEvent: {}
+[16.132225] (-) TimerEvent: {}
+[16.232940] (-) TimerEvent: {}
+[16.333636] (-) TimerEvent: {}
+[16.434328] (-) TimerEvent: {}
+[16.535079] (-) TimerEvent: {}
+[16.704875] (-) TimerEvent: {}
+[16.805559] (-) TimerEvent: {}
+[16.906381] (-) TimerEvent: {}
+[17.007063] (-) TimerEvent: {}
+[17.107686] (-) TimerEvent: {}
+[17.208331] (-) TimerEvent: {}
+[17.309132] (-) TimerEvent: {}
+[17.409945] (-) TimerEvent: {}
+[17.510733] (-) TimerEvent: {}
+[17.611746] (-) TimerEvent: {}
+[17.712758] (-) TimerEvent: {}
+[17.813871] (-) TimerEvent: {}
+[17.914557] (-) TimerEvent: {}
+[18.015296] (-) TimerEvent: {}
+[18.115984] (-) TimerEvent: {}
+[18.216650] (-) TimerEvent: {}
+[18.317290] (-) TimerEvent: {}
+[18.417944] (-) TimerEvent: {}
+[18.518644] (-) TimerEvent: {}
+[18.619339] (-) TimerEvent: {}
+[18.719981] (-) TimerEvent: {}
+[18.820653] (-) TimerEvent: {}
+[18.921413] (-) TimerEvent: {}
+[19.022523] (-) TimerEvent: {}
+[19.123438] (-) TimerEvent: {}
+[19.224172] (-) TimerEvent: {}
+[19.325031] (-) TimerEvent: {}
+[19.386012] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.425208] (-) TimerEvent: {}
+[19.471268] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Generating done\n'}
+[19.479469] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Build files have been written to: /home/rasp-8771/pi_ws/build/ros2_control_demo_example_2\n'}
+[19.516597] (ros2_control_demo_example_2) CommandEnded: {'returncode': 0}
+[19.518473] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'build'}
+[19.519407] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2', '--', '-j4', '-l4'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'rasp-8771'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771/pi_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('WINDOWID', '46137350'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-8771:@/tmp/.ICE-unix/1490,unix/rasp-8771:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/rasp-8771/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rasp-8771'), ('AMENT_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron')]), 'shell': False}
+[19.526596] (-) TimerEvent: {}
+[19.628000] (-) TimerEvent: {}
+[19.728852] (-) TimerEvent: {}
+[19.740972] (ros2_control_demo_example_2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_control_demo_example_2.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[19.829046] (-) TimerEvent: {}
+[19.929879] (-) TimerEvent: {}
+[20.030649] (-) TimerEvent: {}
+[20.131399] (-) TimerEvent: {}
+[20.232146] (-) TimerEvent: {}
+[20.332904] (-) TimerEvent: {}
+[20.433610] (-) TimerEvent: {}
+[20.534349] (-) TimerEvent: {}
+[20.635102] (-) TimerEvent: {}
+[20.735824] (-) TimerEvent: {}
+[20.836602] (-) TimerEvent: {}
+[20.937329] (-) TimerEvent: {}
+[21.038067] (-) TimerEvent: {}
+[21.138866] (-) TimerEvent: {}
+[21.239708] (-) TimerEvent: {}
+[21.340428] (-) TimerEvent: {}
+[21.441154] (-) TimerEvent: {}
+[21.541958] (-) TimerEvent: {}
+[21.643124] (-) TimerEvent: {}
+[21.743876] (-) TimerEvent: {}
+[21.844597] (-) TimerEvent: {}
+[21.945305] (-) TimerEvent: {}
+[22.046127] (-) TimerEvent: {}
+[22.146898] (-) TimerEvent: {}
+[22.247672] (-) TimerEvent: {}
+[22.348401] (-) TimerEvent: {}
+[22.449134] (-) TimerEvent: {}
+[22.549894] (-) TimerEvent: {}
+[22.650920] (-) TimerEvent: {}
+[22.751645] (-) TimerEvent: {}
+[22.852415] (-) TimerEvent: {}
+[22.953303] (-) TimerEvent: {}
+[23.054049] (-) TimerEvent: {}
+[23.154890] (-) TimerEvent: {}
+[23.255668] (-) TimerEvent: {}
+[23.356474] (-) TimerEvent: {}
+[23.457249] (-) TimerEvent: {}
+[23.557966] (-) TimerEvent: {}
+[23.658702] (-) TimerEvent: {}
+[23.759562] (-) TimerEvent: {}
+[23.860383] (-) TimerEvent: {}
+[23.961168] (-) TimerEvent: {}
+[24.061937] (-) TimerEvent: {}
+[24.162671] (-) TimerEvent: {}
+[24.263474] (-) TimerEvent: {}
+[24.364345] (-) TimerEvent: {}
+[24.465185] (-) TimerEvent: {}
+[24.565910] (-) TimerEvent: {}
+[24.666778] (-) TimerEvent: {}
+[24.767566] (-) TimerEvent: {}
+[24.868377] (-) TimerEvent: {}
+[24.969414] (-) TimerEvent: {}
+[25.070246] (-) TimerEvent: {}
+[25.171069] (-) TimerEvent: {}
+[25.271839] (-) TimerEvent: {}
+[25.372631] (-) TimerEvent: {}
+[25.473344] (-) TimerEvent: {}
+[25.574116] (-) TimerEvent: {}
+[25.674915] (-) TimerEvent: {}
+[25.775676] (-) TimerEvent: {}
+[25.876437] (-) TimerEvent: {}
+[25.977224] (-) TimerEvent: {}
+[26.077962] (-) TimerEvent: {}
+[26.178792] (-) TimerEvent: {}
+[26.279576] (-) TimerEvent: {}
+[26.380350] (-) TimerEvent: {}
+[26.481137] (-) TimerEvent: {}
+[26.581891] (-) TimerEvent: {}
+[26.682746] (-) TimerEvent: {}
+[26.783627] (-) TimerEvent: {}
+[26.884462] (-) TimerEvent: {}
+[26.985262] (-) TimerEvent: {}
+[27.086024] (-) TimerEvent: {}
+[27.186788] (-) TimerEvent: {}
+[27.287559] (-) TimerEvent: {}
+[27.388361] (-) TimerEvent: {}
+[27.489174] (-) TimerEvent: {}
+[27.589941] (-) TimerEvent: {}
+[27.690696] (-) TimerEvent: {}
+[27.791512] (-) TimerEvent: {}
+[27.892268] (-) TimerEvent: {}
+[27.993065] (-) TimerEvent: {}
+[28.093816] (-) TimerEvent: {}
+[28.194601] (-) TimerEvent: {}
+[28.295451] (-) TimerEvent: {}
+[28.396276] (-) TimerEvent: {}
+[28.497295] (-) TimerEvent: {}
+[28.598056] (-) TimerEvent: {}
+[28.698857] (-) TimerEvent: {}
+[28.799632] (-) TimerEvent: {}
+[28.900413] (-) TimerEvent: {}
+[29.001285] (-) TimerEvent: {}
+[29.102068] (-) TimerEvent: {}
+[29.202856] (-) TimerEvent: {}
+[29.303635] (-) TimerEvent: {}
+[29.404428] (-) TimerEvent: {}
+[29.505231] (-) TimerEvent: {}
+[29.606014] (-) TimerEvent: {}
+[29.706782] (-) TimerEvent: {}
+[29.807579] (-) TimerEvent: {}
+[29.908329] (-) TimerEvent: {}
+[30.009129] (-) TimerEvent: {}
+[30.109889] (-) TimerEvent: {}
+[30.210659] (-) TimerEvent: {}
+[30.311472] (-) TimerEvent: {}
+[30.412260] (-) TimerEvent: {}
+[30.513129] (-) TimerEvent: {}
+[30.613886] (-) TimerEvent: {}
+[30.714652] (-) TimerEvent: {}
+[30.815485] (-) TimerEvent: {}
+[30.916274] (-) TimerEvent: {}
+[31.017083] (-) TimerEvent: {}
+[31.117832] (-) TimerEvent: {}
+[31.218598] (-) TimerEvent: {}
+[31.319369] (-) TimerEvent: {}
+[31.420192] (-) TimerEvent: {}
+[31.520979] (-) TimerEvent: {}
+[31.621713] (-) TimerEvent: {}
+[31.722492] (-) TimerEvent: {}
+[31.823365] (-) TimerEvent: {}
+[31.924251] (-) TimerEvent: {}
+[32.025070] (-) TimerEvent: {}
+[32.125814] (-) TimerEvent: {}
+[32.226565] (-) TimerEvent: {}
+[32.327314] (-) TimerEvent: {}
+[32.428135] (-) TimerEvent: {}
+[32.528942] (-) TimerEvent: {}
+[32.629685] (-) TimerEvent: {}
+[32.730445] (-) TimerEvent: {}
+[32.831207] (-) TimerEvent: {}
+[32.932027] (-) TimerEvent: {}
+[33.032830] (-) TimerEvent: {}
+[33.133584] (-) TimerEvent: {}
+[33.234345] (-) TimerEvent: {}
+[33.335107] (-) TimerEvent: {}
+[33.435917] (-) TimerEvent: {}
+[33.536686] (-) TimerEvent: {}
+[33.637457] (-) TimerEvent: {}
+[33.738226] (-) TimerEvent: {}
+[33.839014] (-) TimerEvent: {}
+[33.939839] (-) TimerEvent: {}
+[34.040630] (-) TimerEvent: {}
+[34.141399] (-) TimerEvent: {}
+[34.242223] (-) TimerEvent: {}
+[34.343068] (-) TimerEvent: {}
+[34.443927] (-) TimerEvent: {}
+[34.544720] (-) TimerEvent: {}
+[34.645527] (-) TimerEvent: {}
+[34.746277] (-) TimerEvent: {}
+[34.847134] (-) TimerEvent: {}
+[34.947960] (-) TimerEvent: {}
+[35.048749] (-) TimerEvent: {}
+[35.149506] (-) TimerEvent: {}
+[35.250266] (-) TimerEvent: {}
+[35.351035] (-) TimerEvent: {}
+[35.451869] (-) TimerEvent: {}
+[35.552673] (-) TimerEvent: {}
+[35.653430] (-) TimerEvent: {}
+[35.754190] (-) TimerEvent: {}
+[35.854953] (-) TimerEvent: {}
+[35.955951] (-) TimerEvent: {}
+[36.057153] (-) TimerEvent: {}
+[36.157866] (-) TimerEvent: {}
+[36.258668] (-) TimerEvent: {}
+[36.359670] (-) TimerEvent: {}
+[36.460420] (-) TimerEvent: {}
+[36.561314] (-) TimerEvent: {}
+[36.662109] (-) TimerEvent: {}
+[36.762901] (-) TimerEvent: {}
+[36.863714] (-) TimerEvent: {}
+[36.964548] (-) TimerEvent: {}
+[37.065401] (-) TimerEvent: {}
+[37.166134] (-) TimerEvent: {}
+[37.266893] (-) TimerEvent: {}
+[37.367727] (-) TimerEvent: {}
+[37.468484] (-) TimerEvent: {}
+[37.569278] (-) TimerEvent: {}
+[37.669996] (-) TimerEvent: {}
+[37.770815] (-) TimerEvent: {}
+[37.871809] (-) TimerEvent: {}
+[37.972700] (-) TimerEvent: {}
+[38.073492] (-) TimerEvent: {}
+[38.174330] (-) TimerEvent: {}
+[38.275189] (-) TimerEvent: {}
+[38.376089] (-) TimerEvent: {}
+[38.477111] (-) TimerEvent: {}
+[38.578122] (-) TimerEvent: {}
+[38.679100] (-) TimerEvent: {}
+[38.780015] (-) TimerEvent: {}
+[38.880899] (-) TimerEvent: {}
+[38.981889] (-) TimerEvent: {}
+[38.988048] (ros2_control_demo_example_2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libros2_control_demo_example_2.so\x1b[0m\n'}
+[39.082160] (-) TimerEvent: {}
+[39.183133] (-) TimerEvent: {}
+[39.284243] (-) TimerEvent: {}
+[39.385478] (-) TimerEvent: {}
+[39.486660] (-) TimerEvent: {}
+[39.588113] (-) TimerEvent: {}
+[39.688985] (-) TimerEvent: {}
+[39.790047] (-) TimerEvent: {}
+[39.891085] (-) TimerEvent: {}
+[39.992141] (-) TimerEvent: {}
+[40.093651] (-) TimerEvent: {}
+[40.195416] (-) TimerEvent: {}
+[40.297012] (-) TimerEvent: {}
+[40.398373] (-) TimerEvent: {}
+[40.499765] (-) TimerEvent: {}
+[40.600960] (-) TimerEvent: {}
+[40.702012] (-) TimerEvent: {}
+[40.803147] (-) TimerEvent: {}
+[40.904579] (-) TimerEvent: {}
+[41.005644] (-) TimerEvent: {}
+[41.049033] (ros2_control_demo_example_2) StdoutLine: {'line': b'[100%] Built target ros2_control_demo_example_2\n'}
+[41.105898] (-) TimerEvent: {}
+[41.116779] (ros2_control_demo_example_2) CommandEnded: {'returncode': 0}
+[41.206088] (-) TimerEvent: {}
+[41.280246] (ros2_control_demo_example_2) JobProgress: {'identifier': 'ros2_control_demo_example_2', 'progress': 'install'}
+[41.281864] (ros2_control_demo_example_2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en_US'), ('USER', 'rasp-8771'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771/pi_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('WINDOWID', '46137350'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rasp-8771:@/tmp/.ICE-unix/1490,unix/rasp-8771:/tmp/.ICE-unix/1490'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/rasp-8771/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rasp-8771'), ('AMENT_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('XDG_VTNR', '7'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_example_2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/mate:/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron')]), 'shell': False}
+[41.306287] (-) TimerEvent: {}
+[41.320448] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[41.323992] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[41.326242] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2//ros2_control_demo_example_2.xml\n'}
+[41.374190] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/diffbot_system.hpp\n'}
+[41.406527] (-) TimerEvent: {}
+[41.415145] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/include/ros2_control_demo_example_2/ros2_control_demo_example_2/visibility_control.h\n'}
+[41.457818] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/view_robot.launch.py\n'}
+[41.503704] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/ros2_control/diffbot.ros2_control.xacro\n'}
+[41.506754] (-) TimerEvent: {}
+[41.550186] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/urdf/diffbot.urdf.xacro\n'}
+[41.592982] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/launch/diffbot.launch.py\n'}
+[41.606967] (-) TimerEvent: {}
+[41.632113] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/config/diffbot_controllers.yaml\n'}
+[41.678289] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.sh\n'}
+[41.707407] (-) TimerEvent: {}
+[41.727078] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/library_path.dsv\n'}
+[41.768765] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_example_2\n'}
+[41.807599] (-) TimerEvent: {}
+[41.808637] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_example_2\n'}
+[41.881000] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.sh\n'}
+[41.907837] (-) TimerEvent: {}
+[41.923148] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/ament_prefix_path.dsv\n'}
+[41.965558] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.sh\n'}
+[42.007504] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/environment/path.dsv\n'}
+[42.008124] (-) TimerEvent: {}
+[42.057035] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.bash\n'}
+[42.095036] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.sh\n'}
+[42.108428] (-) TimerEvent: {}
+[42.152735] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.zsh\n'}
+[42.203850] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/local_setup.dsv\n'}
+[42.208794] (-) TimerEvent: {}
+[42.255938] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.dsv\n'}
+[42.311162] (-) TimerEvent: {}
+[42.313784] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/packages/ros2_control_demo_example_2\n'}
+[42.371565] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_example_2\n'}
+[42.411380] (-) TimerEvent: {}
+[42.420841] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[42.469594] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[42.511660] (-) TimerEvent: {}
+[42.516678] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config.cmake\n'}
+[42.559393] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/ros2_control_demo_example_2Config-version.cmake\n'}
+[42.605020] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/package.xml\n'}
+[42.611895] (-) TimerEvent: {}
+[42.644622] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so\n'}
+[42.665347] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Set runtime path of "/home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/lib/libros2_control_demo_example_2.so" to ""\n'}
+[42.666384] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export.cmake\n'}
+[42.668060] (ros2_control_demo_example_2) StdoutLine: {'line': b'-- Installing: /home/rasp-8771/pi_ws/install/ros2_control_demo_example_2/share/ros2_control_demo_example_2/cmake/export_ros2_control_demo_example_2Export-noconfig.cmake\n'}
+[42.706583] (ros2_control_demo_example_2) CommandEnded: {'returncode': 0}
+[42.724824] (-) TimerEvent: {}
+[42.825670] (-) TimerEvent: {}
+[42.926759] (-) TimerEvent: {}
+[42.990278] (ros2_control_demo_example_2) JobEnded: {'identifier': 'ros2_control_demo_example_2', 'rc': 0}
+[42.997655] (-) EventReactorShutdown: {}
