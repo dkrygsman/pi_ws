@@ -1,0 +1,4 @@
+source;share/bevbot_arduino/local_setup.bash
+source;share/bevbot_arduino/local_setup.dsv
+source;share/bevbot_arduino/local_setup.sh
+source;share/bevbot_arduino/local_setup.zsh

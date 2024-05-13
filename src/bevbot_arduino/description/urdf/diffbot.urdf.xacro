@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- Basic differential drive mobile base -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="diffdrive_robot">
+  <xacro:arg name="prefix" default="" />
+  <xacro:arg name="use_mock_hardware" default="false" />
+
+  <!-- Adding my own robot description xacro modelined earlier-->
+  <xacro:include filename="bevbot_core.xacro"/>
+
+  <!-- File for lidar and lidar mount -->
+  <xacro:include filename="lidar.xacro"/>
+
+  <!-- File for camera -->
+  <xacro:include filename="camera.xacro"/>
+
+
+  <!--<xacro:include filename="$(find ros2_control_demo_description)/diffbot/urdf/diffbot_description.urdf.xacro" /> --> 
+  <!-- This ^ is old demo robot urdf-->
+  
+  <!-- Import Rviz colors -->
+  <xacro:include filename="$(find ros2_control_demo_description)/diffbot/urdf/diffbot.materials.xacro" /> 
+
+  <!-- Import diffbot ros2_control description -->
+  <xacro:include filename="$(find bevbot_arduino)/ros2_control/diffbot.ros2_control.xacro" />
+
+  <xacro:diffbot prefix="$(arg prefix)" />
+
+  <xacro:diffbot_ros2_control
+    name="DiffBot" prefix="$(arg prefix)" use_mock_hardware="$(arg use_mock_hardware)"/>
+
+</robot>

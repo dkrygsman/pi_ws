@@ -1,0 +1,10 @@
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/uninstall.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/bevbot_arduino_uninstall.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/bevbot_arduino.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/test.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/edit_cache.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/rebuild_cache.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/list_install_components.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/install.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/install/local.dir
+/home/rasp-8771/pi_ws/build/bevbot_arduino/CMakeFiles/install/strip.dir

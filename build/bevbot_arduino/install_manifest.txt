@@ -1,0 +1,3 @@
+/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/libbevbot_arduino.so
+/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/export_bevbot_arduinoExport.cmake
+/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/export_bevbot_arduinoExport-noconfig.cmake

@@ -1,0 +1,70 @@
+[0.056s] Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/ros2_control_demo_description
+[0.325s] -- The C compiler identification is GNU 11.4.0
+[0.593s] -- The CXX compiler identification is GNU 11.4.0
+[0.623s] -- Detecting C compiler ABI info
+[0.979s] -- Detecting C compiler ABI info - done
+[1.005s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.006s] -- Detecting C compile features
+[1.008s] -- Detecting C compile features - done
+[1.020s] -- Detecting CXX compiler ABI info
+[1.400s] -- Detecting CXX compiler ABI info - done
+[1.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.430s] -- Detecting CXX compile features
+[1.432s] -- Detecting CXX compile features - done
+[1.462s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.338s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.228s] -- Configuring done
+[3.252s] -- Generating done
+[3.258s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[3.276s] Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/ros2_control_demo_description
+[3.286s] Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/ros2_control_demo_description -- -j4 -l4
+[3.444s] Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/ros2_control_demo_description -- -j4 -l4
+[3.605s] Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[3.635s] -- Install configuration: ""
+[3.636s] -- Execute custom install script
+[3.639s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[3.672s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[3.706s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[3.740s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[3.775s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[3.806s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[3.841s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[3.878s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro
+[3.912s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro
+[3.944s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz
+[3.978s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz
+[4.012s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[4.046s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[4.081s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[4.116s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[4.149s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[4.184s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[4.215s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[4.248s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[4.282s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[4.313s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[4.345s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[4.379s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[4.411s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[4.443s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[4.478s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[4.511s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[4.557s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[4.580s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[4.613s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[4.648s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[4.682s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[4.716s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[4.749s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[4.782s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[4.816s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[4.849s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[4.885s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[4.918s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[4.950s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[4.985s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[5.017s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[5.050s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[5.082s] -- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[5.122s] Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/ros2_control_demo_description
