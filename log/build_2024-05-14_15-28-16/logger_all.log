@@ -1,0 +1,210 @@
+[1.445s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.446s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff95306470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff95305f00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff95305f00>>, mixin_verb=('build',))
+[2.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.877s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.878s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rasp-8771/pi_ws'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.881s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.934s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.935s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.936s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'ignore_ament_install'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['colcon_pkg']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'colcon_pkg'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['colcon_meta']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'colcon_meta'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['ros']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'ros'
+[2.971s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bevbot_arduino' with type 'ros.ament_cmake' and name 'bevbot_arduino'
+[2.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore'
+[2.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore_ament_install'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_pkg']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_pkg'
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_meta']
+[2.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_meta'
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ros']
+[2.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ros'
+[2.982s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[2.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/iron
+[3.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.419s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[3.419s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[3.419s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.419s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.419s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.420s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.420s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/ros2_control_demo_description', 'symlink_install': True, 'test_result_base': None}
+[3.421s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_args' from command line to 'None'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_target' from command line to 'None'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[3.422s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.423s] DEBUG:colcon.colcon_core.verb:Building package 'bevbot_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/bevbot_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/bevbot_arduino', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/bevbot_arduino', 'symlink_install': True, 'test_result_base': None}
+[3.423s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.426s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp-8771/pi_ws/src/ros2_control_demo_description' with build type 'ament_cmake'
+[3.428s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp-8771/pi_ws/src/ros2_control_demo_description'
+[3.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/ros2_control_demo_description -- -j4 -l4
+[3.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/ros2_control_demo_description -- -j4 -l4
+[4.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[4.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[4.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[4.388s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake module files
+[4.393s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake config files
+[4.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[4.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[4.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[4.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[4.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[4.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[4.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[4.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[4.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[4.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake module files
+[4.558s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake config files
+[4.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[4.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[4.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[4.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[4.574s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[4.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[4.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[4.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[4.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[4.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp-8771/pi_ws/src/bevbot_arduino' with build type 'ament_cmake'
+[4.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp-8771/pi_ws/src/bevbot_arduino'
+[4.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino -- -j4 -l4
+[5.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino -- -j4 -l4
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/bevbot_arduino
+[5.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bevbot_arduino)
+[5.620s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake module files
+[5.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/bevbot_arduino
+[5.625s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake config files
+[5.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'cmake_prefix_path')
+[5.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.ps1'
+[5.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.dsv'
+[5.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.sh'
+[5.641s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib'
+[5.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'ld_library_path_lib')
+[5.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.ps1'
+[5.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.dsv'
+[5.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.sh'
+[5.649s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/pkgconfig/bevbot_arduino.pc'
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/python3.10/site-packages'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[5.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.ps1'
+[5.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.dsv'
+[5.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.sh'
+[5.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.bash'
+[5.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.zsh'
+[5.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/bevbot_arduino/share/colcon-core/packages/bevbot_arduino)
+[5.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bevbot_arduino)
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake module files
+[5.795s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake config files
+[5.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'cmake_prefix_path')
+[5.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.ps1'
+[5.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.dsv'
+[5.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.sh'
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib'
+[5.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'ld_library_path_lib')
+[5.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.ps1'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.dsv'
+[5.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.sh'
+[5.816s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/pkgconfig/bevbot_arduino.pc'
+[5.818s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/python3.10/site-packages'
+[5.818s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[5.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.ps1'
+[5.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.dsv'
+[5.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.sh'
+[5.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.bash'
+[5.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.zsh'
+[5.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/bevbot_arduino/share/colcon-core/packages/bevbot_arduino)
+[5.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.834s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.870s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.369s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.ps1'
+[6.379s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp-8771/pi_ws/install/_local_setup_util_ps1.py'
+[6.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.ps1'
+[6.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.sh'
+[6.397s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp-8771/pi_ws/install/_local_setup_util_sh.py'
+[6.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.sh'
+[6.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.bash'
+[6.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.bash'
+[6.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.zsh'
+[6.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.zsh'
