@@ -1,0 +1,49 @@
+[0.127s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_ros_msgs
+[0.206s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.122s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.174s] -- ------------------------------------------
+[1.176s] -- Depthai ROS MSGS/INTERFACES is being built using AMENT.
+[1.178s] -- ------------------------------------------
+[1.179s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.408s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.459s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.100s] -- Found vision_msgs: 4.1.1 (/opt/ros/iron/share/vision_msgs/cmake)
+[2.373s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[2.824s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[2.867s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[5.025s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[7.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.534s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[8.657s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.658s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.658s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[9.033s] -- Configuring done
+[9.389s] -- Generating done
+[9.413s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_ros_msgs
+[9.457s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_ros_msgs
+[9.466s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_ros_msgs
+[9.731s] [  1%] Built target depthai_ros_msgs__rosidl_generator_type_description
+[9.842s] [  1%] Built target depthai_ros_msgs__cpp
+[9.922s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_generator_c[0m
+[10.038s] [ 27%] Built target depthai_ros_msgs__rosidl_generator_c
+[10.104s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_typesupport_cpp[0m
+[10.247s] [ 37%] Built target depthai_ros_msgs__rosidl_typesupport_cpp
+[10.326s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_typesupport_fastrtps_c[0m
+[10.446s] [ 46%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c
+[10.515s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[10.644s] [ 56%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[10.708s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_typesupport_introspection_c[0m
+[10.796s] [ 65%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c
+[10.860s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_typesupport_c[0m
+[10.944s] [ 74%] Built target depthai_ros_msgs__rosidl_typesupport_c
+[11.010s] [35m[1mConsolidate compiler generated dependencies of target depthai_ros_msgs__rosidl_typesupport_introspection_cpp[0m
+[11.126s] [ 84%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp
+[11.234s] [ 84%] Built target depthai_ros_msgs
+[11.330s] failed to create symbolic link '/home/rasp-8771/pi_ws/build/depthai_ros_msgs/ament_cmake_python/depthai_ros_msgs/depthai_ros_msgs' because existing path cannot be removed: Is a directory
+[11.333s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_depthai_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_depthai_ros_msgs] Error 1
+[11.334s] gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_depthai_ros_msgs.dir/all] Error 2
+[11.335s] gmake: *** [Makefile:146: all] Error 2
+[11.342s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_ros_msgs

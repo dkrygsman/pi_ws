@@ -1,0 +1,4 @@
+Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions
+Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions

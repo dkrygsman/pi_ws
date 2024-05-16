@@ -1,0 +1,38 @@
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_descriptions
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+-- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+-- Up-to-date: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+-- Up-to-date: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py

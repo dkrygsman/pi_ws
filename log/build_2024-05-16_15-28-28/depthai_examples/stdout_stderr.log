@@ -1,0 +1,156 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- The C compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- ------------------------------------------
+-- Depthai Bridge is being built using AMENT.
+-- ------------------------------------------
+-- Found camera_info_manager: 4.2.4 (/opt/ros/iron/share/camera_info_manager/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+-- Found depthai_ros_msgs: 2.9.0 (/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+-- Found depthai_bridge: 2.9.0 (/home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake)
+-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_examples
+[  6%] [32mBuilding CXX object CMakeFiles/crop_control_service.dir/src/crop_control_service.cpp.o[0m
+[ 12%] [32m[1mLinking CXX executable crop_control_service[0m
+[ 12%] Built target crop_control_service
+[ 18%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable mobilenet_node[0m
+[ 25%] Built target mobilenet_node
+[ 31%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o[0m
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:[m[K In lambda function:
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:233:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrLaserDotProjectorBrightness(float, int)[m[K’ is deprecated: Use setIrLaserDotProjectorIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  233 |             [01;35m[Kdevice.setIrLaserDotProjectorBrightness(static_cast<float>(dotProjectormA))[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:17[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:498:90:[m[K [01;36m[Knote: [m[Kdeclared here
+  498 | serDotProjectorIntensity(float intensity) instead.")]] bool [01;36m[KsetIrLaserDotProjectorBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:239:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrFloodLightBrightness(float, int)[m[K’ is deprecated: Use setIrFloodLightIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  239 |             [01;35m[Kdevice.setIrFloodLightBrightness(static_cast<float>(floodLightmA))[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/rgb_stereo_node.cpp:17[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:510:83:[m[K [01;36m[Knote: [m[Kdeclared here
+  510 | setIrFloodLightIntensity(float intensity) instead.")]] bool [01;36m[KsetIrFloodLightBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[ 37%] [32m[1mLinking CXX executable rgb_stereo_node[0m
+[ 37%] Built target rgb_stereo_node
+[ 43%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o[0m
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:488:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrLaserDotProjectorBrightness(float, int)[m[K’ is deprecated: Use setIrLaserDotProjectorIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  488 |             [01;35m[Kdevice->setIrLaserDotProjectorBrightness(dotProjectormA)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:15[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:498:90:[m[K [01;36m[Knote: [m[Kdeclared here
+  498 | serDotProjectorIntensity(float intensity) instead.")]] bool [01;36m[KsetIrLaserDotProjectorBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:492:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrFloodLightBrightness(float, int)[m[K’ is deprecated: Use setIrFloodLightIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  492 |             [01;35m[Kdevice->setIrFloodLightBrightness(floodLightmA)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples/src/stereo_inertial_publisher.cpp:15[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:510:83:[m[K [01;36m[Knote: [m[Kdeclared here
+  510 | setIrFloodLightIntensity(float intensity) instead.")]] bool [01;36m[KsetIrFloodLightBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[ 50%] [32m[1mLinking CXX executable stereo_inertial_node[0m
+[ 50%] Built target stereo_inertial_node
+[ 56%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker_publisher.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable feature_tracker[0m
+[ 62%] Built target feature_tracker
+[ 68%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/src/stereo_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable stereo_node[0m
+[ 75%] Built target stereo_node
+[ 81%] [32mBuilding CXX object CMakeFiles/yolov4_spatial_node.dir/src/yolov4_spatial_publisher.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable yolov4_spatial_node[0m
+[ 87%] Built target yolov4_spatial_node
+[ 93%] [32mBuilding CXX object CMakeFiles/yolov4_node.dir/src/yolov4_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable yolov4_node[0m
+[100%] Built target yolov4_node
+-- Install configuration: ""
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/params
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/params/camera
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/params/camera/left.yaml
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/params/camera/right.yaml
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/params/camera/color.yaml
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_config.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertial.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/rgb_camera.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/pointCloud.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud_v1.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlignROS2.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialROS1.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_nodelet.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlign.rviz
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/resources
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/resources/yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/resources/deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/launch
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/crop_control_service
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/crop_control_service" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/stereo_node
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/stereo_node" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/yolov4_node
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/yolov4_node" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/feature_tracker
+-- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_examples/lib/depthai_examples/feature_tracker" to "/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib"
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/ament_index/resource_index/package_run_dependencies/depthai_examples
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/ament_index/resource_index/parent_prefix_path/depthai_examples
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.sh
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.dsv
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/environment/path.sh
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/environment/path.dsv
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/local_setup.bash
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/local_setup.sh
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/local_setup.zsh
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/local_setup.dsv
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/package.dsv
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/ament_index/resource_index/packages/depthai_examples
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig.cmake
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig-version.cmake
+-- Installing: /home/rasp-8771/pi_ws/install/depthai_examples/share/depthai_examples/package.xml

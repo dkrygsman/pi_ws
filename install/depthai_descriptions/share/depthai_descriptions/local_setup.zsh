@@ -1,0 +1,1 @@
+/home/rasp-8771/pi_ws/build/depthai_descriptions/ament_cmake_environment_hooks/local_setup.zsh

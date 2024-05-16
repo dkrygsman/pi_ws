@@ -1,0 +1,96 @@
+[0.057s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_bridge -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_bridge
+[0.397s] -- The CXX compiler identification is GNU 11.4.0
+[0.628s] -- The C compiler identification is GNU 11.4.0
+[0.659s] -- Detecting CXX compiler ABI info
+[1.046s] -- Detecting CXX compiler ABI info - done
+[1.072s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.073s] -- Detecting CXX compile features
+[1.075s] -- Detecting CXX compile features - done
+[1.087s] -- Detecting C compiler ABI info
+[1.424s] -- Detecting C compiler ABI info - done
+[1.451s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.452s] -- Detecting C compile features
+[1.453s] -- Detecting C compile features - done
+[1.498s] -- ------------------------------------------
+[1.499s] -- Depthai Bridge is being built using AMENT.
+[1.499s] -- ------------------------------------------
+[1.519s] -- Found camera_info_manager: 4.2.4 (/opt/ros/iron/share/camera_info_manager/cmake)
+[2.536s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.715s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.815s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.862s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.889s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[5.607s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.925s] -- Found FastRTPS: /opt/ros/iron/include  
+[6.444s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.816s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[8.855s] -- Found depthai_ros_msgs: 2.9.0 (/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+[10.598s] -- Found image_transport: 4.2.4 (/opt/ros/iron/share/image_transport/cmake)
+[11.138s] -- Found stereo_msgs: 5.0.0 (/opt/ros/iron/share/stereo_msgs/cmake)
+[11.537s] -- Found tf2_ros: 0.31.6 (/opt/ros/iron/share/tf2_ros/cmake)
+[13.409s] -- Found tf2_geometry_msgs: 0.31.6 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[13.620s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[13.626s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.627s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.675s] -- --------------------------iron ---
+[13.676s] -- iron
+[14.078s] -- Configuring done
+[14.208s] -- Generating done
+[14.218s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_bridge
+[14.278s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_bridge -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_bridge
+[14.287s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_bridge
+[14.527s] [ 12%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/DisparityConverter.cpp.o[0m
+[43.459s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImageConverter.cpp.o[0m
+[82.491s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImgDetectionConverter.cpp.o[0m
+[104.996s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/ImuConverter.cpp.o[0m
+[130.353s] [ 62%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/SpatialDetectionConverter.cpp.o[0m
+[155.187s] [ 75%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TFPublisher.cpp.o[0m
+[186.749s] [ 87%] [32mBuilding CXX object CMakeFiles/depthai_bridge.dir/src/TrackedFeaturesConverter.cpp.o[0m
+[210.594s] [100%] [32m[1mLinking CXX shared library libdepthai_bridge.so[0m
+[213.984s] [100%] Built target depthai_bridge
+[214.028s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_bridge
+[214.254s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_bridge': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_bridge
+[214.288s] -- Install configuration: ""
+[214.289s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.sh
+[214.291s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/environment/library_path.dsv
+[214.292s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include/
+[214.293s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge
+[214.294s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/ImageConverter.hpp
+[214.295s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/TFPublisher.hpp
+[214.296s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/ImgDetectionConverter.hpp
+[214.297s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/DisparityConverter.hpp
+[214.298s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/depthaiUtility.hpp
+[214.300s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/BridgePublisher.hpp
+[214.301s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/ImuConverter.hpp
+[214.302s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/SpatialDetectionConverter.hpp
+[214.303s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/include//depthai_bridge/TrackedFeaturesConverter.hpp
+[214.305s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/lib/libdepthai_bridge.so
+[214.335s] -- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_bridge/lib/libdepthai_bridge.so" to ""
+[214.335s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets.cmake
+[214.337s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargets-noconfig.cmake
+[214.338s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/rviz
+[214.339s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/rviz/pointCloud.rviz
+[214.341s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/ament_index/resource_index/package_run_dependencies/depthai_bridge
+[214.343s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/ament_index/resource_index/parent_prefix_path/depthai_bridge
+[214.345s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.sh
+[214.346s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/environment/ament_prefix_path.dsv
+[214.347s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/environment/path.sh
+[214.349s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/environment/path.dsv
+[214.350s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/local_setup.bash
+[214.351s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/local_setup.sh
+[214.353s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/local_setup.zsh
+[214.354s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/local_setup.dsv
+[214.356s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/package.dsv
+[214.357s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/ament_index/resource_index/packages/depthai_bridge
+[214.359s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport.cmake
+[214.360s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeTargetsExport-noconfig.cmake
+[214.362s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[214.363s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[214.365s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[214.366s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[214.368s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig.cmake
+[214.369s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/cmake/depthai_bridgeConfig-version.cmake
+[214.371s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_bridge/share/depthai_bridge/package.xml
+[214.382s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_bridge' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_bridge

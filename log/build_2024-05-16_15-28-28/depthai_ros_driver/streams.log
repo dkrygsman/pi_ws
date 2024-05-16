@@ -1,0 +1,233 @@
+[0.090s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_ros_driver
+[0.410s] -- The C compiler identification is GNU 11.4.0
+[0.670s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting C compiler ABI info
+[1.043s] -- Detecting C compiler ABI info - done
+[1.068s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.070s] -- Detecting C compile features
+[1.072s] -- Detecting C compile features - done
+[1.083s] -- Detecting CXX compiler ABI info
+[1.453s] -- Detecting CXX compiler ABI info - done
+[1.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.480s] -- Detecting CXX compile features
+[1.482s] -- Detecting CXX compile features - done
+[1.510s] -- Found ament_cmake_auto: 2.0.5 (/opt/ros/iron/share/ament_cmake_auto/cmake)
+[2.501s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.226s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[4.332s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[4.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.403s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[5.427s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[6.213s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.536s] -- Found FastRTPS: /opt/ros/iron/include  
+[7.063s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.866s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[14.870s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[14.871s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.607s] -- Configuring done
+[15.894s] -- Generating done
+[15.904s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_ros_driver
+[15.967s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_ros_driver
+[15.976s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_ros_driver
+[16.216s] [  3%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/utils.cpp.o[0m
+[31.828s] [  7%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/base_node.cpp.o[0m
+[54.380s] [ 11%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sys_logger.cpp.o[0m
+[89.365s] [ 15%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cpp.o[0m
+[127.051s] [ 19%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/camera_param_handler.cpp.o[0m
+[140.701s] [ 23%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/imu_param_handler.cpp.o[0m
+[164.164s] [ 26%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/nn_param_handler.cpp.o[0m
+[186.996s] [ 30%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/sensor_param_handler.cpp.o[0m
+[204.334s] [ 34%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/feature_tracker_param_handler.cpp.o[0m
+[221.048s] [ 38%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/stereo_param_handler.cpp.o[0m
+[242.207s] [ 42%] [32m[1mLinking CXX shared library libdepthai_ros_driver_common.so[0m
+[246.504s] [ 42%] Built target depthai_ros_driver_common
+[246.600s] [ 46%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/imu.cpp.o[0m
+[283.949s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/rgb.cpp.o[0m
+[322.315s] [ 53%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/mono.cpp.o[0m
+[360.296s] [ 57%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/feature_tracker.cpp.o[0m
+[390.044s] [ 61%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o[0m
+[439.419s] [ 65%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/stereo.cpp.o[0m
+[483.704s] [ 69%] [32m[1mLinking CXX shared library libdepthai_ros_driver_sensor_nodes.so[0m
+[490.490s] [ 69%] Built target depthai_ros_driver_sensor_nodes
+[490.588s] [ 73%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/nn_wrapper.cpp.o[0m
+[536.485s] [ 76%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/spatial_nn_wrapper.cpp.o[0m
+[584.071s] [ 80%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/segmentation.cpp.o[0m
+[624.404s] [ 84%] [32m[1mLinking CXX shared library libdepthai_ros_driver_nn_nodes.so[0m
+[629.361s] [ 84%] Built target depthai_ros_driver_nn_nodes
+[629.457s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o[0m
+[653.200s] [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Kvoid depthai_ros_driver::Camera::setIR()[m[K’:
+[653.201s] [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:255:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrLaserDotProjectorBrightness(float, int)[m[K’ is deprecated: Use setIrLaserDotProjectorIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[653.201s]   255 |         [01;35m[Kdevice->setIrLaserDotProjectorBrightness(ph->getParam<int>("i_laser_dot_brightness"))[m[K;
+[653.202s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[653.202s] In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+[653.202s]                  from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[653.203s] [01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:498:90:[m[K [01;36m[Knote: [m[Kdeclared here
+[653.203s]   498 | serDotProjectorIntensity(float intensity) instead.")]] bool [01;36m[KsetIrLaserDotProjectorBrightness[m[K(float mA, int mask = -1);
+[653.203s]       |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[653.204s] 
+[653.204s] [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:256:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrFloodLightBrightness(float, int)[m[K’ is deprecated: Use setIrFloodLightIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[653.204s]   256 |         [01;35m[Kdevice->setIrFloodLightBrightness(ph->getParam<int>("i_floodlight_brightness"))[m[K;
+[653.205s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[653.205s] In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+[653.206s]                  from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[653.206s] [01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:510:83:[m[K [01;36m[Knote: [m[Kdeclared here
+[653.206s]   510 | setIrFloodLightIntensity(float intensity) instead.")]] bool [01;36m[KsetIrFloodLightBrightness[m[K(float mA, int mask = -1);
+[653.207s]       |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[653.207s] 
+[653.211s] [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult depthai_ros_driver::Camera::parameterCB(const std::vector<rclcpp::Parameter>&)[m[K’:
+[653.212s] [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:264:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrLaserDotProjectorBrightness(float, int)[m[K’ is deprecated: Use setIrLaserDotProjectorIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[653.212s]   264 |                 [01;35m[Kdevice->setIrLaserDotProjectorBrightness(p.get_value<int>())[m[K;
+[653.213s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[653.213s] In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+[653.214s]                  from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[653.214s] [01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:498:90:[m[K [01;36m[Knote: [m[Kdeclared here
+[653.214s]   498 | serDotProjectorIntensity(float intensity) instead.")]] bool [01;36m[KsetIrLaserDotProjectorBrightness[m[K(float mA, int mask = -1);
+[653.215s]       |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[653.215s] 
+[653.216s] [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:266:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrFloodLightBrightness(float, int)[m[K’ is deprecated: Use setIrFloodLightIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[653.216s]   266 |                 [01;35m[Kdevice->setIrFloodLightBrightness(p.get_value<int>())[m[K;
+[653.217s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[653.217s] In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+[653.218s]                  from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[653.218s] [01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:510:83:[m[K [01;36m[Knote: [m[Kdeclared here
+[653.219s]   510 | setIrFloodLightIntensity(float intensity) instead.")]] bool [01;36m[KsetIrFloodLightBrightness[m[K(float mA, int mask = -1);
+[653.219s]       |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[653.220s] 
+[689.773s] [ 92%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/pipeline_generator.cpp.o[0m
+[733.920s] [ 96%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/base_types.cpp.o[0m
+[761.825s] [100%] [32m[1mLinking CXX shared library libdepthai_ros_driver.so[0m
+[769.529s] [100%] Built target depthai_ros_driver
+[769.657s] [100%] Built target ament_cmake_python_copy_depthai_ros_driver
+[770.920s] running egg_info
+[770.923s] creating depthai_ros_driver.egg-info
+[770.923s] writing depthai_ros_driver.egg-info/PKG-INFO
+[770.924s] writing dependency_links to depthai_ros_driver.egg-info/dependency_links.txt
+[770.925s] writing top-level names to depthai_ros_driver.egg-info/top_level.txt
+[770.926s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[770.936s] reading manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[770.938s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[771.076s] [100%] Built target ament_cmake_python_build_depthai_ros_driver_egg
+[771.120s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_ros_driver
+[771.555s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_driver': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_ros_driver
+[771.585s] -- Install configuration: ""
+[771.585s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/plugins.xml
+[771.588s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.sh
+[771.589s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.dsv
+[771.590s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch
+[771.591s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/pointcloud.launch.py
+[771.592s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_segmentation.launch.py
+[771.593s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera.launch.py
+[771.595s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rgbd_pcl.launch.py
+[771.596s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rtabmap.launch.py
+[771.597s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/sr_rgbd_pcl.launch.py
+[771.598s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_multicam.launch.py
+[771.599s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_marker_publish.launch.py
+[771.600s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/stereo_from_rosbag.launch.py
+[771.601s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/calibration.launch.py
+[771.602s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config
+[771.603s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/pcl.yaml
+[771.604s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/isaac_vslam.yaml
+[771.606s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/sr_rgbd.yaml
+[771.607s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/camera.yaml
+[771.609s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rgbd.yaml
+[771.610s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/multicam_example.yaml
+[771.612s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/stereo_from_rosbag.yaml
+[771.614s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn
+[771.614s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/mobilenet.json
+[771.616s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/yolo.json
+[771.618s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/segmentation.json
+[771.619s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_sr.yaml
+[771.621s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/spatial_yolo.yaml
+[771.622s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration
+[771.623s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/left.yaml
+[771.625s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/right.yaml
+[771.627s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/rgb.yaml
+[771.628s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz
+[771.629s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/multicam.rviz
+[771.631s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/rgbd.rviz
+[771.633s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/segmentation.rviz
+[771.635s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_pro_w.yaml
+[771.636s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration.yaml
+[771.638s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/low_bandwidth.yaml
+[771.640s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/segmentation.yaml
+[771.642s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so
+[771.710s] -- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so" to ""
+[771.710s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so
+[771.771s] -- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so" to ""
+[771.772s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so
+[771.803s] -- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so" to ""
+[771.803s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so
+[771.847s] -- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so" to ""
+[771.848s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets.cmake
+[771.850s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets-noconfig.cmake
+[771.852s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.sh
+[771.853s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.dsv
+[771.855s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver-2.9.0-py3.10.egg-info
+[771.856s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver-2.9.0-py3.10.egg-info/SOURCES.txt
+[771.857s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver-2.9.0-py3.10.egg-info/top_level.txt
+[771.858s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver-2.9.0-py3.10.egg-info/PKG-INFO
+[771.859s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver-2.9.0-py3.10.egg-info/dependency_links.txt
+[771.860s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver
+[771.861s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver/__init__.py
+[772.014s] Listing '/home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver'...
+[772.015s] Compiling '/home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/python3.10/site-packages/depthai_ros_driver/__init__.py'...
+[772.044s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/lib/depthai_ros_driver/obj_pub.py
+[772.045s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include
+[772.045s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver
+[772.046s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline
+[772.047s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_pipeline.hpp
+[772.048s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_types.hpp
+[772.049s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/pipeline_generator.hpp
+[772.050s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/utils.hpp
+[772.051s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes
+[772.052s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/stereo.hpp
+[772.054s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors
+[772.055s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/mono.hpp
+[772.056s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/rgb.hpp
+[772.057s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/imu.hpp
+[772.058s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/feature_tracker.hpp
+[772.059s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_wrapper.hpp
+[772.060s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_helpers.hpp
+[772.062s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/base_node.hpp
+[772.063s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sys_logger.hpp
+[772.064s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn
+[772.064s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_detection.hpp
+[772.065s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/segmentation.hpp
+[772.066s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_wrapper.hpp
+[772.067s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/detection.hpp
+[772.068s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_helpers.hpp
+[772.069s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_nn_wrapper.hpp
+[772.070s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers
+[772.071s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/feature_tracker_param_handler.hpp
+[772.072s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/base_param_handler.hpp
+[772.073s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/imu_param_handler.hpp
+[772.074s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/nn_param_handler.hpp
+[772.076s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/sensor_param_handler.hpp
+[772.077s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/stereo_param_handler.hpp
+[772.078s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/camera_param_handler.hpp
+[772.079s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/include/depthai_ros_driver/camera.hpp
+[772.080s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/ament_index/resource_index/package_run_dependencies/depthai_ros_driver
+[772.082s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/ament_index/resource_index/parent_prefix_path/depthai_ros_driver
+[772.084s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.sh
+[772.085s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.dsv
+[772.086s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.sh
+[772.087s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.dsv
+[772.088s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.bash
+[772.089s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.sh
+[772.091s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.zsh
+[772.092s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.dsv
+[772.093s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv
+[772.094s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/ament_index/resource_index/packages/depthai_ros_driver
+[772.096s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/ament_index/resource_index/depthai_ros_driver__pluginlib__plugin/depthai_ros_driver
+[772.097s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/ament_index/resource_index/rclcpp_components/depthai_ros_driver
+[772.099s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport.cmake
+[772.100s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport-noconfig.cmake
+[772.102s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[772.103s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_targets-extras.cmake
+[772.104s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[772.106s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[772.107s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig.cmake
+[772.108s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig-version.cmake
+[772.109s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.xml
+[772.118s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_driver' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_bridge/lib:/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_ros_driver

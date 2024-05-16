@@ -1,0 +1,84 @@
+[0.058s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_filters
+[0.400s] -- The CXX compiler identification is GNU 11.4.0
+[0.630s] -- The C compiler identification is GNU 11.4.0
+[0.659s] -- Detecting CXX compiler ABI info
+[1.044s] -- Detecting CXX compiler ABI info - done
+[1.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.071s] -- Detecting CXX compile features
+[1.072s] -- Detecting CXX compile features - done
+[1.083s] -- Detecting C compiler ABI info
+[1.422s] -- Detecting C compiler ABI info - done
+[1.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.447s] -- Detecting C compile features
+[1.449s] -- Detecting C compile features - done
+[1.473s] -- Found ament_cmake_auto: 2.0.5 (/opt/ros/iron/share/ament_cmake_auto/cmake)
+[2.521s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.844s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.941s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[4.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.672s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[5.698s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[6.401s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.727s] -- Found FastRTPS: /opt/ros/iron/include  
+[7.237s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.894s] -- Configuring done
+[11.000s] -- Generating done
+[11.008s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_filters
+[11.055s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_filters
+[11.064s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_filters
+[11.281s] [ 12%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[83.340s] [ 25%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[139.775s] [ 37%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/spatial_bb.cpp.o[0m
+[234.706s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[306.526s] [ 62%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/feature_tracker_overlay.cpp.o[0m
+[379.634s] [ 75%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/features_3d.cpp.o[0m
+[472.612s] [ 87%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[499.477s] [100%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[516.721s] [100%] Built target depthai_filters
+[516.776s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_filters
+[517.005s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_filters': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_filters
+[517.035s] -- Install configuration: ""
+[517.036s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch
+[517.036s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+[517.038s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+[517.039s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+[517.040s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+[517.041s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/spatial_bb.launch.py
+[517.043s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_tracker.launch.py
+[517.044s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/launch/example_feature_3d.launch.py
+[517.046s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/config
+[517.046s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/config/detection.yaml
+[517.049s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/config/spatial_bb.yaml
+[517.050s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/config/feature_tracker.yaml
+[517.052s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/config/wls.yaml
+[517.054s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+[517.056s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/lib/libdepthai_filters.so
+[517.249s] -- Set runtime path of "/home/rasp-8771/pi_ws/install/depthai_filters/lib/libdepthai_filters.so" to ""
+[517.250s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include
+[517.250s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters
+[517.251s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/feature_tracker_overlay.hpp
+[517.252s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+[517.253s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/utils.hpp
+[517.254s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/spatial_bb.hpp
+[517.255s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+[517.256s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+[517.257s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/include/depthai_filters/features_3d.hpp
+[517.259s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+[517.262s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+[517.265s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+[517.266s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+[517.268s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/environment/path.sh
+[517.269s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/environment/path.dsv
+[517.271s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/local_setup.bash
+[517.273s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/local_setup.sh
+[517.275s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/local_setup.zsh
+[517.277s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/local_setup.dsv
+[517.279s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/package.dsv
+[517.282s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+[517.283s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+[517.286s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[517.288s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+[517.296s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+[517.297s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_filters/share/depthai_filters/package.xml
+[517.305s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_filters' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_filters

@@ -1,0 +1,38 @@
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Kvoid depthai_ros_driver::Camera::setIR()[m[K’:
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:255:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrLaserDotProjectorBrightness(float, int)[m[K’ is deprecated: Use setIrLaserDotProjectorIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  255 |         [01;35m[Kdevice->setIrLaserDotProjectorBrightness(ph->getParam<int>("i_laser_dot_brightness"))[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:498:90:[m[K [01;36m[Knote: [m[Kdeclared here
+  498 | serDotProjectorIntensity(float intensity) instead.")]] bool [01;36m[KsetIrLaserDotProjectorBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:256:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrFloodLightBrightness(float, int)[m[K’ is deprecated: Use setIrFloodLightIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  256 |         [01;35m[Kdevice->setIrFloodLightBrightness(ph->getParam<int>("i_floodlight_brightness"))[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:510:83:[m[K [01;36m[Knote: [m[Kdeclared here
+  510 | setIrFloodLightIntensity(float intensity) instead.")]] bool [01;36m[KsetIrFloodLightBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult depthai_ros_driver::Camera::parameterCB(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:264:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrLaserDotProjectorBrightness(float, int)[m[K’ is deprecated: Use setIrLaserDotProjectorIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  264 |                 [01;35m[Kdevice->setIrLaserDotProjectorBrightness(p.get_value<int>())[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:498:90:[m[K [01;36m[Knote: [m[Kdeclared here
+  498 | serDotProjectorIntensity(float intensity) instead.")]] bool [01;36m[KsetIrLaserDotProjectorBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:266:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool dai::DeviceBase::setIrFloodLightBrightness(float, int)[m[K’ is deprecated: Use setIrFloodLightIntensity(float intensity) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  266 |                 [01;35m[Kdevice->setIrFloodLightBrightness(p.get_value<int>())[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/depthai/device/Device.hpp:14[m[K,
+                 from [01m[K/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver/src/camera.cpp:6[m[K:
+[01m[K/opt/ros/iron/include/depthai/device/DeviceBase.hpp:510:83:[m[K [01;36m[Knote: [m[Kdeclared here
+  510 | setIrFloodLightIntensity(float intensity) instead.")]] bool [01;36m[KsetIrFloodLightBrightness[m[K(float mA, int mask = -1);
+      |                                                             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+

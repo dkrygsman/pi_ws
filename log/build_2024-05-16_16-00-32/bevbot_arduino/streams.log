@@ -1,0 +1,19 @@
+[0.062s] Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/bevbot_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/bevbot_arduino
+[0.131s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.023s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.084s] -- Found hardware_interface: 3.24.0 (/opt/ros/iron/share/hardware_interface/cmake)
+[1.312s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.358s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.030s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[5.038s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[5.206s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.239s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.354s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.391s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[5.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.402s] -- Found ament_cmake_pytest: 2.0.5 (/opt/ros/iron/share/ament_cmake_pytest/cmake)
+[10.058s] -- Configuring done
+[10.150s] -- Generating done
+[10.160s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/bevbot_arduino

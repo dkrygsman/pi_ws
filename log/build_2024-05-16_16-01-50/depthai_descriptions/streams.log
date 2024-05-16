@@ -1,0 +1,44 @@
+[0.125s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_descriptions
+[0.178s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.532s] -- Configuring done
+[1.564s] -- Generating done
+[1.580s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_descriptions
+[1.612s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_descriptions
+[1.615s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+[1.794s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+[1.989s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions
+[2.036s] -- Install configuration: ""
+[2.038s] -- Execute custom install script
+[2.041s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+[2.042s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[2.043s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+[2.044s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[2.045s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[2.046s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[2.048s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[2.049s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+[2.050s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[2.051s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+[2.052s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[2.053s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[2.054s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+[2.056s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[2.057s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[2.059s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[2.060s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[2.061s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[2.064s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[2.065s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[2.067s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[2.067s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[2.069s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[2.070s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[2.071s] -- Symlinking: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[2.114s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[2.115s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[2.116s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[2.120s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[2.121s] -- Up-to-date: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+[2.122s] -- Up-to-date: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[2.142s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions

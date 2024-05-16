@@ -1,0 +1,58 @@
+[0.083s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_descriptions
+[0.397s] -- The C compiler identification is GNU 11.4.0
+[0.721s] -- The CXX compiler identification is GNU 11.4.0
+[0.753s] -- Detecting C compiler ABI info
+[1.145s] -- Detecting C compiler ABI info - done
+[1.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.171s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.187s] -- Detecting CXX compiler ABI info
+[1.628s] -- Detecting CXX compiler ABI info - done
+[1.656s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.657s] -- Detecting CXX compile features
+[1.658s] -- Detecting CXX compile features - done
+[1.687s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.820s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.881s] -- Configuring done
+[3.904s] -- Generating done
+[3.909s] -- Build files have been written to: /home/rasp-8771/pi_ws/build/depthai_descriptions
+[3.927s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_descriptions
+[3.933s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+[4.097s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+[4.205s] Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions
+[4.241s] -- Install configuration: ""
+[4.242s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/launch
+[4.243s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[4.248s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf
+[4.249s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[4.250s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include
+[4.250s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[4.252s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/include/base_macro.urdf.xacro
+[4.254s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models
+[4.254s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO-W.stl
+[4.357s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[4.514s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-SR.stl
+[4.594s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[4.651s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LR.stl
+[4.699s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[4.767s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[4.875s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[4.912s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[4.987s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[5.051s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/urdf/base_descr.urdf.xacro
+[5.053s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[5.055s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[5.057s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[5.058s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[5.059s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[5.061s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[5.062s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[5.063s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[5.065s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[5.066s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[5.068s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[5.069s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[5.071s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[5.072s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[5.074s] -- Installing: /home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[5.082s] Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions

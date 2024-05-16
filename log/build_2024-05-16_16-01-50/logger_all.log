@@ -1,0 +1,461 @@
+[0.467s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.468s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff930daa40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff930da4d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff930da4d0>>, mixin_verb=('build',))
+[1.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.344s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rasp-8771/pi_ws'
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.394s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['ignore', 'ignore_ament_install']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'ignore'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'ignore_ament_install'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['colcon_pkg']
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'colcon_pkg'
+[1.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['colcon_meta']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'colcon_meta'
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extensions ['ros']
+[1.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/bevbot_arduino) by extension 'ros'
+[1.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bevbot_arduino' with type 'ros.ament_cmake' and name 'bevbot_arduino'
+[1.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ignore_ament_install'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_pkg']
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_pkg'
+[1.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['colcon_meta']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'colcon_meta'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['ros']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'ros'
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['cmake', 'python']
+[1.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'cmake'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extensions ['python_setup_py']
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros) by extension 'python_setup_py'
+[1.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[1.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extensions ['ros']
+[1.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai-ros) by extension 'ros'
+[1.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[1.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[1.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extensions ['ros']
+[1.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_bridge) by extension 'ros'
+[1.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[1.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_descriptions) by extension 'ros'
+[1.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore'
+[1.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extensions ['ros']
+[1.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_examples) by extension 'ros'
+[1.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[1.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_filters) by extension 'ros'
+[1.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[1.499s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[1.505s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'ignore'
+[1.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'ignore_ament_install'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['colcon_pkg']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'colcon_pkg'
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['colcon_meta']
+[1.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'colcon_meta'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['ros']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'ros'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['cmake', 'python']
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'cmake'
+[1.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'python'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extensions ['python_setup_py']
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthai-ros/docs) by extension 'python_setup_py'
+[1.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore_ament_install'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_pkg']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_pkg'
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_meta']
+[1.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_meta'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ros']
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ros'
+[1.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/rasp-8771/pi_ws/install
+[1.625s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 350 installed packages in /opt/ros/iron
+[1.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.859s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_args' from command line to 'None'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target' from command line to 'None'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[1.860s] Level 5:colcon.colcon_core.verb:set package 'depthai_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.860s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai_descriptions', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions', 'symlink_install': False, 'test_result_base': None}
+[1.862s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[1.862s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[1.862s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.862s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.863s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.863s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.863s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.863s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.863s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.863s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai_ros_msgs', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.864s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.865s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.865s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/ros2_control_demo_description', 'symlink_install': False, 'test_result_base': None}
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_args' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_target' from command line to 'None'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[1.867s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[1.868s] Level 5:colcon.colcon_core.verb:set package 'bevbot_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.868s] DEBUG:colcon.colcon_core.verb:Building package 'bevbot_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/bevbot_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/bevbot_arduino', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/bevbot_arduino', 'symlink_install': False, 'test_result_base': None}
+[1.869s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_args' from command line to 'None'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target' from command line to 'None'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.870s] Level 5:colcon.colcon_core.verb:set package 'depthai_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.870s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai_bridge', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_bridge', 'symlink_install': False, 'test_result_base': None}
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_args' from command line to 'None'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target' from command line to 'None'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_clean_first' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'cmake_force_configure' from command line to 'False'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'ament_cmake_args' from command line to 'None'
+[1.872s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[1.873s] Level 5:colcon.colcon_core.verb:set package 'depthai_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.873s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai_filters', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_filters', 'symlink_install': False, 'test_result_base': None}
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_args' from command line to 'None'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_target' from command line to 'None'
+[1.874s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.875s] Level 5:colcon.colcon_core.verb:set package 'depthai_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.875s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai_examples', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_examples', 'symlink_install': False, 'test_result_base': None}
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'depthai_ros_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.878s] DEBUG:colcon.colcon_core.verb:Building package 'depthai_ros_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai_ros_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai_ros_driver', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_driver', 'symlink_install': False, 'test_result_base': None}
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_args' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'depthai-ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.880s] DEBUG:colcon.colcon_core.verb:Building package 'depthai-ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rasp-8771/pi_ws/build/depthai-ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rasp-8771/pi_ws/install/depthai-ros', 'merge_install': False, 'path': '/home/rasp-8771/pi_ws/src/depthai-ros/depthai-ros', 'symlink_install': False, 'test_result_base': None}
+[1.880s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.884s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.885s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs' with build type 'ament_cmake'
+[1.886s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs'
+[1.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.924s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions' with build type 'ament_cmake'
+[1.925s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions'
+[1.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.954s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp-8771/pi_ws/src/ros2_control_demo_description' with build type 'ament_cmake'
+[1.954s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp-8771/pi_ws/src/ros2_control_demo_description'
+[1.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_ros_msgs
+[2.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_descriptions
+[2.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/ros2_control_demo_description
+[3.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_descriptions
+[3.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+[3.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/ros2_control_demo_description
+[3.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[3.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_descriptions
+[3.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/depthai_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions
+[3.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[4.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[4.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/depthai_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/depthai_descriptions
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions' for CMake module files
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions' for CMake config files
+[4.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[4.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[4.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[4.092s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/bin'
+[4.093s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/lib/python3.10/site-packages'
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/bin'
+[4.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[4.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[4.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[4.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[4.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[4.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[4.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[4.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/ros2_control_demo_description
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake module files
+[4.133s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake config files
+[4.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[4.152s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[4.154s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[4.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[4.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[4.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[4.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[4.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[4.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_descriptions)
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions' for CMake module files
+[4.260s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions' for CMake config files
+[4.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_descriptions', 'cmake_prefix_path')
+[4.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.ps1'
+[4.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.dsv'
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/hook/cmake_prefix_path.sh'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/bin'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/lib/pkgconfig/depthai_descriptions.pc'
+[4.275s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/lib/python3.10/site-packages'
+[4.276s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_descriptions/bin'
+[4.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.ps1'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.dsv'
+[4.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.sh'
+[4.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.bash'
+[4.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_descriptions/share/depthai_descriptions/package.zsh'
+[4.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/depthai_descriptions/share/colcon-core/packages/depthai_descriptions)
+[4.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[4.323s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake module files
+[4.327s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description' for CMake config files
+[4.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[4.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[4.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[4.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[4.348s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/bin'
+[4.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[4.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[4.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[4.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[4.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[4.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rasp-8771/pi_ws/src/bevbot_arduino' with build type 'ament_cmake'
+[4.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rasp-8771/pi_ws/src/bevbot_arduino'
+[4.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/bevbot_arduino -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/bevbot_arduino
+[11.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/depthai-ros/depthai_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/depthai_ros_msgs
+[11.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_ros_msgs
+[13.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/depthai_ros_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/depthai_ros_msgs
+[14.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake /home/rasp-8771/pi_ws/src/bevbot_arduino -DCMAKE_INSTALL_PREFIX=/home/rasp-8771/pi_ws/install/bevbot_arduino
+[14.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino
+[14.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino
+[14.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/bevbot_arduino
+[14.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bevbot_arduino)
+[14.976s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake module files
+[14.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/home/rasp-8771/pi_ws/install/bevbot_arduino:/home/rasp-8771/pi_ws/install/depthai-ros:/home/rasp-8771/pi_ws/install/depthai_ros_driver:/home/rasp-8771/pi_ws/install/depthai_filters:/home/rasp-8771/pi_ws/install/depthai_examples:/home/rasp-8771/pi_ws/install/depthai_bridge:/home/rasp-8771/pi_ws/install/depthai_ros_msgs:/home/rasp-8771/pi_ws/install/depthai_descriptions:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/bevbot_arduino
+[14.980s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake config files
+[14.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'cmake_prefix_path')
+[14.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.ps1'
+[14.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.dsv'
+[14.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.sh'
+[14.993s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib'
+[14.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'ld_library_path_lib')
+[14.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.ps1'
+[14.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.dsv'
+[15.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.sh'
+[15.002s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[15.002s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/pkgconfig/bevbot_arduino.pc'
+[15.003s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/python3.10/site-packages'
+[15.004s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[15.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.ps1'
+[15.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.dsv'
+[15.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.sh'
+[15.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.bash'
+[15.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.zsh'
+[15.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/bevbot_arduino/share/colcon-core/packages/bevbot_arduino)
+[15.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bevbot_arduino)
+[15.168s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake module files
+[15.172s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino' for CMake config files
+[15.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'cmake_prefix_path')
+[15.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.ps1'
+[15.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.dsv'
+[15.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/cmake_prefix_path.sh'
+[15.187s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib'
+[15.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('bevbot_arduino', 'ld_library_path_lib')
+[15.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.ps1'
+[15.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.dsv'
+[15.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/hook/ld_library_path_lib.sh'
+[15.194s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[15.194s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/pkgconfig/bevbot_arduino.pc'
+[15.195s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/python3.10/site-packages'
+[15.196s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/bevbot_arduino/bin'
+[15.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.ps1'
+[15.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.dsv'
+[15.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.sh'
+[15.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.bash'
+[15.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.zsh'
+[15.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/bevbot_arduino/share/colcon-core/packages/bevbot_arduino)
+[15.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthai_ros_msgs)
+[15.348s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs' for CMake module files
+[15.353s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs' for CMake config files
+[15.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'cmake_prefix_path')
+[15.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.ps1'
+[15.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.dsv'
+[15.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/cmake_prefix_path.sh'
+[15.370s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib'
+[15.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'ld_library_path_lib')
+[15.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.ps1'
+[15.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.dsv'
+[15.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/ld_library_path_lib.sh'
+[15.378s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/bin'
+[15.378s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/pkgconfig/depthai_ros_msgs.pc'
+[15.379s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/lib/python3.10/site-packages'
+[15.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthai_ros_msgs', 'pythonpath')
+[15.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.ps1'
+[15.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.dsv'
+[15.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/hook/pythonpath.sh'
+[15.386s] Level 1:colcon.colcon_core.environment:checking '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/bin'
+[15.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.ps1'
+[15.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv'
+[15.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.sh'
+[15.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.bash'
+[15.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/package.zsh'
+[15.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rasp-8771/pi_ws/install/depthai_ros_msgs/share/colcon-core/packages/depthai_ros_msgs)
+[15.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[15.414s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.449s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.450s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.920s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.ps1'
+[15.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp-8771/pi_ws/install/_local_setup_util_ps1.py'
+[15.936s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.ps1'
+[15.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.sh'
+[15.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rasp-8771/pi_ws/install/_local_setup_util_sh.py'
+[15.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.sh'
+[15.957s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.bash'
+[15.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.bash'
+[15.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rasp-8771/pi_ws/install/local_setup.zsh'
+[15.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rasp-8771/pi_ws/install/setup.zsh'
