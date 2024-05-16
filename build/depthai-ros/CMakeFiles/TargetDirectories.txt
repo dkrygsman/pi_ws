@@ -1,9 +1,0 @@
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/uninstall.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/depthai-ros_uninstall.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/test.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/edit_cache.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/rebuild_cache.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/list_install_components.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/install.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/install/local.dir
-/home/rasp-8771/pi_ws/build/depthai-ros/CMakeFiles/install/strip.dir
