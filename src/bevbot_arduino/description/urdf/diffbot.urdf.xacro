@@ -4,6 +4,9 @@
   <xacro:arg name="prefix" default="" />
   <xacro:arg name="use_mock_hardware" default="false" />
 
+
+  <!-- Section for my own xacros and code  ______________________________________________________________________________________________________-->
+
   <!-- Adding my own robot description xacro modelined earlier-->
   <xacro:include filename="bevbot_core.xacro"/>
 
@@ -11,7 +14,12 @@
   <xacro:include filename="lidar.xacro"/>
 
   <!-- File for camera -->
-  <xacro:include filename="camera.xacro"/>
+  <!--<xacro:include filename="camera.xacro"/>-->
+
+    <!-- File for epth camera -->
+  <xacro:include filename="depth_camera.xacro"/>
+
+  <!-- Section for my own xacros and code  ______________________________________________________________________________________________________-->
 
 
   <!--<xacro:include filename="$(find ros2_control_demo_description)/diffbot/urdf/diffbot_description.urdf.xacro" /> --> 

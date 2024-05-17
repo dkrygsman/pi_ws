@@ -7,6 +7,7 @@
 /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/ros2_control/diffbot.ros2_control.xacro
 /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/bevbot_core.xacro
 /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/camera.xacro
+/home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/depth_camera.xacro
 /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/diffbot.urdf.xacro
 /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/inertial_macros.xacro
 /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/lidar.xacro
