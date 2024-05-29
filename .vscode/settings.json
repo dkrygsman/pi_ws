@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/rasp-8771/pi_ws/src/example_2",
+    "cmake.sourceDirectory": "/home/rasp-8771/pi_ws/src/bevbot_arduino",
     "files.associations": {
         "chrono": "cpp"
     }
