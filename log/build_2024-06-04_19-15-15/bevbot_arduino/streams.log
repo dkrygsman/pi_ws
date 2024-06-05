@@ -1,0 +1,46 @@
+[0.050s] Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino -- -j4 -l4
+[0.649s] [100%] Built target bevbot_arduino
+[0.686s] Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino -- -j4 -l4
+[0.810s] Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/bevbot_arduino
+[0.838s] -- Install configuration: ""
+[0.842s] -- Execute custom install script
+[0.844s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino//bevbot_arduino.xml
+[0.849s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/arduino_comms.hpp
+[0.851s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/diffbot_system.hpp
+[0.853s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/visibility_control.h
+[0.855s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/wheel.hpp
+[0.860s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/launch/view_robot.launch.py
+[0.863s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/ros2_control/diffbot.ros2_control.xacro
+[0.890s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/bevbot_core.xacro
+[0.892s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/camera.xacro
+[0.894s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/depth_camera.xacro
+[0.897s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/diffbot.urdf.xacro
+[0.899s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/inertial_macros.xacro
+[0.900s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/lidar.xacro
+[0.905s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/launch/diffbot.launch.py
+[0.908s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/config/diffbot_controllers.yaml
+[0.914s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/config/mapper_params_online_async.yaml
+[0.916s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/library_path.sh
+[0.918s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/library_path.dsv
+[0.922s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/package_run_dependencies/bevbot_arduino
+[0.924s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/parent_prefix_path/bevbot_arduino
+[0.927s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/ament_prefix_path.sh
+[0.929s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/ament_prefix_path.dsv
+[0.930s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/path.sh
+[0.932s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/path.dsv
+[0.934s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.bash
+[0.935s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.sh
+[0.937s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.zsh
+[0.939s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.dsv
+[0.939s] -- Symlinking: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.dsv
+[0.975s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/packages/bevbot_arduino
+[0.977s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bevbot_arduino
+[0.979s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[0.980s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.982s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/bevbot_arduinoConfig.cmake
+[0.983s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/bevbot_arduinoConfig-version.cmake
+[0.984s] -- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.xml
+[0.989s] -- Up-to-date: /home/rasp-8771/pi_ws/install/bevbot_arduino/lib/libbevbot_arduino.so
+[0.995s] -- Up-to-date: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/export_bevbot_arduinoExport.cmake
+[0.995s] -- Up-to-date: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/export_bevbot_arduinoExport-noconfig.cmake
+[1.005s] Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '0': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --install /home/rasp-8771/pi_ws/build/bevbot_arduino

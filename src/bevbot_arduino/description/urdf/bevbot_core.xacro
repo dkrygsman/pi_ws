@@ -20,7 +20,7 @@
   <xacro:property name="wheel_mass" value="0.2" /> <!-- arbitrary value for wheel mass -->
   <xacro:property name="wheel_len" value="0.0127" />
   <xacro:property name="wheel_space" value="0.0127" />
-  <xacro:property name="wheel_radius" value="0.04445" />
+  <xacro:property name="wheel_radius" value="0.0460375" />
   <xacro:property name="caster_wheel_mass" value="0.1" /> <!-- arbitrary value for caster wheel mass -->
   <xacro:property name="caster_wheel_radius" value="0.0508" />
   <xacro:property name="caster_x" value="0.2159" />
