@@ -6,8 +6,8 @@
   <!-- Constants for robot dimensions -->
   <xacro:property name="PI" value="3.1415926535897931"/>
   <xacro:property name="base_mass" value=".1" /> <!-- arbitrary value for base mass -->
-  <xacro:property name="base_width" value="0.3683" />
-  <xacro:property name="base_length" value="0.3683" />
+  <xacro:property name="base_width" value="0.36195" />
+  <xacro:property name="base_length" value="0.36195" />
   <xacro:property name="base_height" value=".064" />
   <xacro:property name="base_mass_two" value=".5" /> <!-- arbitrary value for base mass -->
   <xacro:property name="base_width_two" value="0.2667" />
