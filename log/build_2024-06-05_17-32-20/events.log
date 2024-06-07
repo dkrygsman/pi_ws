@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.001828] (ros2_control_demo_description) JobQueued: {'identifier': 'ros2_control_demo_description', 'dependencies': OrderedDict()}
+[0.002415] (bevbot_arduino) JobQueued: {'identifier': 'bevbot_arduino', 'dependencies': OrderedDict([('ros2_control_demo_description', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description')])}
+[0.002971] (ros2_control_demo_description) JobStarted: {'identifier': 'ros2_control_demo_description'}
+[0.038809] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'cmake'}
+[0.041678] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'build'}
+[0.044774] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', '--', '-j4', '-l4'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasp-8771'), ('SSH_CLIENT', '192.168.1.194 43568 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '13'), ('PATH', '/home/rasp-8771/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '87'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'), ('SSH_CONNECTION', '192.168.1.194 43568 192.168.1.229 22'), ('XDG_DATA_DIRS', '/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099322] (-) TimerEvent: {}
+[0.198478] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[0.200612] (-) TimerEvent: {}
+[0.301471] (-) TimerEvent: {}
+[0.303471] (ros2_control_demo_description) JobProgress: {'identifier': 'ros2_control_demo_description', 'progress': 'install'}
+[0.336194] (ros2_control_demo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'], 'cwd': '/home/rasp-8771/pi_ws/build/ros2_control_demo_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasp-8771'), ('SSH_CLIENT', '192.168.1.194 43568 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '13'), ('PATH', '/home/rasp-8771/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '87'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/rasp-8771/pi_ws/build/ros2_control_demo_description'), ('SSH_CONNECTION', '192.168.1.194 43568 192.168.1.229 22'), ('XDG_DATA_DIRS', '/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.364675] (ros2_control_demo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.366336] (ros2_control_demo_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.368311] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro\n'}
+[0.369173] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro\n'}
+[0.370565] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz\n'}
+[0.372247] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro\n'}
+[0.372971] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro\n'}
+[0.374418] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz\n'}
+[0.375229] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz\n'}
+[0.376861] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot.materials.xacro\n'}
+[0.377651] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/urdf/carlikebot_description.urdf.xacro\n'}
+[0.379081] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot.rviz\n'}
+[0.380325] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/carlikebot/rviz/carlikebot_view.rviz\n'}
+[0.382912] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl\n'}
+[0.383783] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl\n'}
+[0.384658] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl\n'}
+[0.385508] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl\n'}
+[0.386352] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl\n'}
+[0.387224] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl\n'}
+[0.388083] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl\n'}
+[0.388972] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae\n'}
+[0.389804] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae\n'}
+[0.390637] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae\n'}
+[0.391524] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae\n'}
+[0.392368] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae\n'}
+[0.393260] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae\n'}
+[0.394066] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae\n'}
+[0.395457] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf\n'}
+[0.396962] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro\n'}
+[0.397725] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro\n'}
+[0.399087] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz\n'}
+[0.400396] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description\n'}
+[0.401556] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description\n'}
+[0.401975] (-) TimerEvent: {}
+[0.402801] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh\n'}
+[0.403713] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv\n'}
+[0.404697] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh\n'}
+[0.406565] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv\n'}
+[0.407187] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash\n'}
+[0.407725] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh\n'}
+[0.408714] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh\n'}
+[0.409598] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv\n'}
+[0.410191] (ros2_control_demo_description) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv\n'}
+[0.450815] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description\n'}
+[0.451731] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake\n'}
+[0.452344] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake\n'}
+[0.452859] (ros2_control_demo_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml\n'}
+[0.457706] (ros2_control_demo_description) CommandEnded: {'returncode': 0}
+[0.502237] (-) TimerEvent: {}
+[0.603045] (-) TimerEvent: {}
+[0.649675] (ros2_control_demo_description) JobEnded: {'identifier': 'ros2_control_demo_description', 'rc': 0}
+[0.654466] (bevbot_arduino) JobStarted: {'identifier': 'bevbot_arduino'}
+[0.681066] (bevbot_arduino) JobProgress: {'identifier': 'bevbot_arduino', 'progress': 'cmake'}
+[0.685583] (bevbot_arduino) JobProgress: {'identifier': 'bevbot_arduino', 'progress': 'build'}
+[0.687563] (bevbot_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rasp-8771/pi_ws/build/bevbot_arduino', '--', '-j4', '-l4'], 'cwd': '/home/rasp-8771/pi_ws/build/bevbot_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasp-8771'), ('SSH_CLIENT', '192.168.1.194 43568 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '13'), ('PATH', '/home/rasp-8771/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '87'), ('AMENT_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/rasp-8771/pi_ws/build/bevbot_arduino'), ('SSH_CONNECTION', '192.168.1.194 43568 192.168.1.229 22'), ('XDG_DATA_DIRS', '/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron')]), 'shell': False}
+[0.703260] (-) TimerEvent: {}
+[0.804106] (-) TimerEvent: {}
+[0.870705] (bevbot_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bevbot_arduino\x1b[0m\n'}
+[0.904282] (-) TimerEvent: {}
+[0.974558] (bevbot_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bevbot_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[1.004512] (-) TimerEvent: {}
+[1.105485] (-) TimerEvent: {}
+[1.206345] (-) TimerEvent: {}
+[1.307210] (-) TimerEvent: {}
+[1.408002] (-) TimerEvent: {}
+[1.508784] (-) TimerEvent: {}
+[1.609638] (-) TimerEvent: {}
+[1.710546] (-) TimerEvent: {}
+[1.811458] (-) TimerEvent: {}
+[1.912304] (-) TimerEvent: {}
+[2.013108] (-) TimerEvent: {}
+[2.113960] (-) TimerEvent: {}
+[2.214918] (-) TimerEvent: {}
+[2.315747] (-) TimerEvent: {}
+[2.416705] (-) TimerEvent: {}
+[2.517581] (-) TimerEvent: {}
+[2.618384] (-) TimerEvent: {}
+[2.719254] (-) TimerEvent: {}
+[2.820112] (-) TimerEvent: {}
+[2.921023] (-) TimerEvent: {}
+[3.021751] (-) TimerEvent: {}
+[3.122625] (-) TimerEvent: {}
+[3.223526] (-) TimerEvent: {}
+[3.324351] (-) TimerEvent: {}
+[3.425266] (-) TimerEvent: {}
+[3.526222] (-) TimerEvent: {}
+[3.627246] (-) TimerEvent: {}
+[3.728337] (-) TimerEvent: {}
+[3.829187] (-) TimerEvent: {}
+[3.930008] (-) TimerEvent: {}
+[4.030864] (-) TimerEvent: {}
+[4.131883] (-) TimerEvent: {}
+[4.232811] (-) TimerEvent: {}
+[4.333706] (-) TimerEvent: {}
+[4.434962] (-) TimerEvent: {}
+[4.536018] (-) TimerEvent: {}
+[4.637087] (-) TimerEvent: {}
+[5.001156] (-) TimerEvent: {}
+[5.102193] (-) TimerEvent: {}
+[5.203592] (-) TimerEvent: {}
+[5.304576] (-) TimerEvent: {}
+[5.405597] (-) TimerEvent: {}
+[5.506608] (-) TimerEvent: {}
+[5.607593] (-) TimerEvent: {}
+[5.708483] (-) TimerEvent: {}
+[5.809473] (-) TimerEvent: {}
+[5.910408] (-) TimerEvent: {}
+[6.011339] (-) TimerEvent: {}
+[6.112259] (-) TimerEvent: {}
+[6.213160] (-) TimerEvent: {}
+[6.314193] (-) TimerEvent: {}
+[6.415126] (-) TimerEvent: {}
+[6.516021] (-) TimerEvent: {}
+[6.616846] (-) TimerEvent: {}
+[6.717827] (-) TimerEvent: {}
+[6.819028] (-) TimerEvent: {}
+[6.919985] (-) TimerEvent: {}
+[7.020892] (-) TimerEvent: {}
+[7.121909] (-) TimerEvent: {}
+[7.222847] (-) TimerEvent: {}
+[7.323814] (-) TimerEvent: {}
+[7.424898] (-) TimerEvent: {}
+[7.525908] (-) TimerEvent: {}
+[7.626845] (-) TimerEvent: {}
+[7.727846] (-) TimerEvent: {}
+[7.828779] (-) TimerEvent: {}
+[7.929670] (-) TimerEvent: {}
+[8.030612] (-) TimerEvent: {}
+[8.131538] (-) TimerEvent: {}
+[8.232493] (-) TimerEvent: {}
+[8.333439] (-) TimerEvent: {}
+[8.434396] (-) TimerEvent: {}
+[8.535345] (-) TimerEvent: {}
+[8.636333] (-) TimerEvent: {}
+[8.737382] (-) TimerEvent: {}
+[8.838309] (-) TimerEvent: {}
+[8.939140] (-) TimerEvent: {}
+[9.039988] (-) TimerEvent: {}
+[9.140809] (-) TimerEvent: {}
+[9.241657] (-) TimerEvent: {}
+[9.342473] (-) TimerEvent: {}
+[9.443380] (-) TimerEvent: {}
+[9.544304] (-) TimerEvent: {}
+[9.657097] (-) TimerEvent: {}
+[9.758062] (-) TimerEvent: {}
+[9.858970] (-) TimerEvent: {}
+[9.959925] (-) TimerEvent: {}
+[10.060884] (-) TimerEvent: {}
+[10.161991] (-) TimerEvent: {}
+[10.262817] (-) TimerEvent: {}
+[10.363786] (-) TimerEvent: {}
+[10.464752] (-) TimerEvent: {}
+[10.565744] (-) TimerEvent: {}
+[10.666742] (-) TimerEvent: {}
+[10.767700] (-) TimerEvent: {}
+[10.868674] (-) TimerEvent: {}
+[10.969588] (-) TimerEvent: {}
+[11.070568] (-) TimerEvent: {}
+[11.171428] (-) TimerEvent: {}
+[11.272428] (-) TimerEvent: {}
+[11.373362] (-) TimerEvent: {}
+[11.474308] (-) TimerEvent: {}
+[11.575134] (-) TimerEvent: {}
+[11.676005] (-) TimerEvent: {}
+[11.776814] (-) TimerEvent: {}
+[11.877620] (-) TimerEvent: {}
+[11.978512] (-) TimerEvent: {}
+[12.079365] (-) TimerEvent: {}
+[12.180177] (-) TimerEvent: {}
+[12.280999] (-) TimerEvent: {}
+[12.381880] (-) TimerEvent: {}
+[12.482686] (-) TimerEvent: {}
+[12.583503] (-) TimerEvent: {}
+[12.684311] (-) TimerEvent: {}
+[12.785147] (-) TimerEvent: {}
+[12.886007] (-) TimerEvent: {}
+[12.986873] (-) TimerEvent: {}
+[13.087899] (-) TimerEvent: {}
+[13.188694] (-) TimerEvent: {}
+[13.289578] (-) TimerEvent: {}
+[13.390397] (-) TimerEvent: {}
+[13.491308] (-) TimerEvent: {}
+[13.592281] (-) TimerEvent: {}
+[13.693077] (-) TimerEvent: {}
+[13.793921] (-) TimerEvent: {}
+[13.894710] (-) TimerEvent: {}
+[13.995601] (-) TimerEvent: {}
+[14.096435] (-) TimerEvent: {}
+[14.197277] (-) TimerEvent: {}
+[14.298088] (-) TimerEvent: {}
+[14.398879] (-) TimerEvent: {}
+[14.499714] (-) TimerEvent: {}
+[14.600519] (-) TimerEvent: {}
+[14.701412] (-) TimerEvent: {}
+[14.802208] (-) TimerEvent: {}
+[14.903033] (-) TimerEvent: {}
+[15.003884] (-) TimerEvent: {}
+[15.104703] (-) TimerEvent: {}
+[15.205525] (-) TimerEvent: {}
+[15.306334] (-) TimerEvent: {}
+[15.407135] (-) TimerEvent: {}
+[15.507998] (-) TimerEvent: {}
+[15.608809] (-) TimerEvent: {}
+[15.709643] (-) TimerEvent: {}
+[15.810517] (-) TimerEvent: {}
+[15.911350] (-) TimerEvent: {}
+[16.012154] (-) TimerEvent: {}
+[16.113015] (-) TimerEvent: {}
+[16.213842] (-) TimerEvent: {}
+[16.314661] (-) TimerEvent: {}
+[16.415519] (-) TimerEvent: {}
+[16.516337] (-) TimerEvent: {}
+[16.617199] (-) TimerEvent: {}
+[16.718022] (-) TimerEvent: {}
+[16.818825] (-) TimerEvent: {}
+[16.919657] (-) TimerEvent: {}
+[17.020472] (-) TimerEvent: {}
+[17.121345] (-) TimerEvent: {}
+[17.222188] (-) TimerEvent: {}
+[17.322984] (-) TimerEvent: {}
+[17.423766] (-) TimerEvent: {}
+[17.524560] (-) TimerEvent: {}
+[17.625544] (-) TimerEvent: {}
+[17.726494] (-) TimerEvent: {}
+[17.827503] (-) TimerEvent: {}
+[17.928367] (-) TimerEvent: {}
+[18.029150] (-) TimerEvent: {}
+[18.129981] (-) TimerEvent: {}
+[18.230807] (-) TimerEvent: {}
+[18.331694] (-) TimerEvent: {}
+[18.432587] (-) TimerEvent: {}
+[18.533410] (-) TimerEvent: {}
+[18.634212] (-) TimerEvent: {}
+[18.735018] (-) TimerEvent: {}
+[18.835856] (-) TimerEvent: {}
+[18.936810] (-) TimerEvent: {}
+[19.037752] (-) TimerEvent: {}
+[19.138580] (-) TimerEvent: {}
+[19.239352] (-) TimerEvent: {}
+[19.340167] (-) TimerEvent: {}
+[19.440973] (-) TimerEvent: {}
+[19.541815] (-) TimerEvent: {}
+[19.642839] (-) TimerEvent: {}
+[19.743859] (-) TimerEvent: {}
+[19.909885] (-) TimerEvent: {}
+[20.010747] (-) TimerEvent: {}
+[20.111924] (-) TimerEvent: {}
+[20.189158] (bevbot_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libbevbot_arduino.so\x1b[0m\n'}
+[20.212156] (-) TimerEvent: {}
+[20.313212] (-) TimerEvent: {}
+[20.413995] (-) TimerEvent: {}
+[20.515110] (-) TimerEvent: {}
+[20.615972] (-) TimerEvent: {}
+[20.716872] (-) TimerEvent: {}
+[20.818387] (-) TimerEvent: {}
+[20.919839] (-) TimerEvent: {}
+[21.021086] (-) TimerEvent: {}
+[21.122081] (-) TimerEvent: {}
+[21.222998] (-) TimerEvent: {}
+[21.323838] (-) TimerEvent: {}
+[21.426566] (-) TimerEvent: {}
+[21.527571] (-) TimerEvent: {}
+[21.629430] (-) TimerEvent: {}
+[21.731687] (-) TimerEvent: {}
+[21.833089] (-) TimerEvent: {}
+[21.933943] (-) TimerEvent: {}
+[22.034916] (-) TimerEvent: {}
+[22.135826] (-) TimerEvent: {}
+[22.236985] (-) TimerEvent: {}
+[22.338430] (-) TimerEvent: {}
+[22.439489] (-) TimerEvent: {}
+[22.540504] (-) TimerEvent: {}
+[22.641565] (-) TimerEvent: {}
+[22.680588] (bevbot_arduino) StdoutLine: {'line': b'[100%] Built target bevbot_arduino\n'}
+[22.720680] (bevbot_arduino) CommandEnded: {'returncode': 0}
+[22.741949] (-) TimerEvent: {}
+[22.834263] (bevbot_arduino) JobProgress: {'identifier': 'bevbot_arduino', 'progress': 'install'}
+[22.835516] (bevbot_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rasp-8771/pi_ws/build/bevbot_arduino'], 'cwd': '/home/rasp-8771/pi_ws/build/bevbot_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rasp-8771'), ('SSH_CLIENT', '192.168.1.194 43568 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/rasp-8771'), ('OLDPWD', '/home/rasp-8771'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'rasp-8771'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '13'), ('PATH', '/home/rasp-8771/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '87'), ('AMENT_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/rasp-8771/pi_ws/build/bevbot_arduino'), ('SSH_CONNECTION', '192.168.1.194 43568 192.168.1.229 22'), ('XDG_DATA_DIRS', '/home/rasp-8771/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron')]), 'shell': False}
+[22.842324] (-) TimerEvent: {}
+[22.868993] (bevbot_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.873020] (bevbot_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.874163] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino//bevbot_arduino.xml\n'}
+[22.876534] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/arduino_comms.hpp\n'}
+[22.878093] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/diffbot_system.hpp\n'}
+[22.879399] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/visibility_control.h\n'}
+[22.880359] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/include/bevbot_arduino/bevbot_arduino/wheel.hpp\n'}
+[22.887532] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/launch/view_robot.launch.py\n'}
+[22.888339] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[22.889217] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/bevbot_core.xacro\n'}
+[22.890035] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/camera.xacro\n'}
+[22.890883] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/depth_camera.xacro\n'}
+[22.891429] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/diffbot.urdf.xacro\n'}
+[22.891868] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/inertial_macros.xacro\n'}
+[22.893538] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/urdf/lidar.xacro\n'}
+[22.894043] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/launch/diffbot.launch.py\n'}
+[22.894911] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/config/diffbot_controllers.yaml\n'}
+[22.895776] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/config/mapper_params_online_async.yaml\n'}
+[22.896819] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/library_path.sh\n'}
+[22.897905] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/library_path.dsv\n'}
+[22.899275] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/package_run_dependencies/bevbot_arduino\n'}
+[22.900545] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/parent_prefix_path/bevbot_arduino\n'}
+[22.901739] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/ament_prefix_path.sh\n'}
+[22.902928] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/ament_prefix_path.dsv\n'}
+[22.904169] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/path.sh\n'}
+[22.905280] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/environment/path.dsv\n'}
+[22.906380] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.bash\n'}
+[22.907573] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.sh\n'}
+[22.908662] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.zsh\n'}
+[22.909701] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/local_setup.dsv\n'}
+[22.910593] (bevbot_arduino) StdoutLine: {'line': b'-- Symlinking: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.dsv\n'}
+[22.942584] (-) TimerEvent: {}
+[22.944263] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/packages/bevbot_arduino\n'}
+[22.945857] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bevbot_arduino\n'}
+[22.947035] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.948396] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.949687] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/bevbot_arduinoConfig.cmake\n'}
+[22.950942] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/bevbot_arduinoConfig-version.cmake\n'}
+[22.952083] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/package.xml\n'}
+[22.953502] (bevbot_arduino) StdoutLine: {'line': b'-- Installing: /home/rasp-8771/pi_ws/install/bevbot_arduino/lib/libbevbot_arduino.so\n'}
+[22.963039] (bevbot_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/rasp-8771/pi_ws/install/bevbot_arduino/lib/libbevbot_arduino.so" to ""\n'}
+[22.964804] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/export_bevbot_arduinoExport.cmake\n'}
+[22.966361] (bevbot_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/rasp-8771/pi_ws/install/bevbot_arduino/share/bevbot_arduino/cmake/export_bevbot_arduinoExport-noconfig.cmake\n'}
+[22.974088] (bevbot_arduino) CommandEnded: {'returncode': 0}
+[23.042796] (-) TimerEvent: {}
+[23.143747] (-) TimerEvent: {}
+[23.205742] (bevbot_arduino) JobEnded: {'identifier': 'bevbot_arduino', 'rc': 0}
+[23.209492] (-) EventReactorShutdown: {}

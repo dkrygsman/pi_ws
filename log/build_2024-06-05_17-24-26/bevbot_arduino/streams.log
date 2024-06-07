@@ -1,0 +1,22 @@
+[0.046s] Invoking command in '/home/rasp-8771/pi_ws/build/bevbot_arduino': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino -- -j4 -l4
+[0.484s] [ 50%] [32mBuilding CXX object CMakeFiles/bevbot_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[12.648s] [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/diffbot_system.cpp:147:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn bevbot_arduino::BevBotSystemHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[12.648s]   147 | hardware_interface::CallbackReturn [01;31m[KBevBotSystemHardware[m[K::on_configure(
+[12.649s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.649s] [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/diffbot_system.cpp:147:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn bevbot_arduino::BevBotSystemHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’
+[12.649s] In file included from [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/diffbot_system.cpp:15[m[K:
+[12.650s] [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/include/bevbot_arduino/diffbot_system.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass bevbot_arduino::BevBotSystemHardware[m[K’ defined here
+[12.650s]    43 | class [01;36m[KBevBotSystemHardware[m[K : public hardware_interface::SystemInterface
+[12.651s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.651s] [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/diffbot_system.cpp:161:36:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Khardware_interface::CallbackReturn bevbot_arduino::BevBotSystemHardware::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+[12.652s]   161 | hardware_interface::CallbackReturn [01;31m[KBevBotSystemHardware[m[K::on_cleanup(
+[12.652s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.652s] [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/diffbot_system.cpp:161:36:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Khardware_interface::CallbackReturn bevbot_arduino::BevBotSystemHardware::on_cleanup(const rclcpp_lifecycle::State&)[m[K’
+[12.653s] In file included from [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/diffbot_system.cpp:15[m[K:
+[12.653s] [01m[K/home/rasp-8771/pi_ws/src/bevbot_arduino/hardware/include/bevbot_arduino/diffbot_system.hpp:43:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass bevbot_arduino::BevBotSystemHardware[m[K’ defined here
+[12.654s]    43 | class [01;36m[KBevBotSystemHardware[m[K : public hardware_interface::SystemInterface
+[12.654s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[16.214s] gmake[2]: *** [CMakeFiles/bevbot_arduino.dir/build.make:76: CMakeFiles/bevbot_arduino.dir/hardware/diffbot_system.cpp.o] Error 1
+[16.215s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bevbot_arduino.dir/all] Error 2
+[16.216s] gmake: *** [Makefile:146: all] Error 2
+[16.222s] Invoked command in '/home/rasp-8771/pi_ws/build/bevbot_arduino' returned '2': AMENT_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rasp-8771/pi_ws/install/ros2_control_demo_description:/opt/ros/iron /usr/bin/cmake --build /home/rasp-8771/pi_ws/build/bevbot_arduino -- -j4 -l4
